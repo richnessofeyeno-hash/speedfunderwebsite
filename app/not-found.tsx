@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <main className="page-hero"><div className="container"><div className="eyebrow">404</div><h1 className="display">LOOKS LIKE THIS PAGE MISSED THE LAUNCH.</h1><p className="muted">The page you requested could not be found.</p><Link className="btn btn-primary" href="/">BACK TO HOME →</Link></div></main>}
