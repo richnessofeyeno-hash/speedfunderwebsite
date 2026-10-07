@@ -63,9 +63,16 @@ export default function Home() {
                 <a className="btn btn-light-outline" href="/services">OUR SERVICES</a>
               </div>
               <div className="trust-row">
-                <div className="trust-dots" aria-hidden="true"><i/><i/><i/><i/><i/></div>
-                <span>Trusted by 300+ Creators Worldwide</span>
-            </div>
+  <div className="trust-dots" aria-hidden="true">
+    <i className="trust-logo trust-logo-1">SF</i>
+    <i className="trust-logo trust-logo-2">✦</i>
+    <i className="trust-logo trust-logo-3">↗</i>
+    <i className="trust-logo trust-logo-4">CF</i>
+    <i className="trust-logo trust-logo-5">+</i>
+  </div>
+
+  <span>Trusted by 300+ Creators Worldwide</span>
+</div>
           </div>
             </div>
         </section>
