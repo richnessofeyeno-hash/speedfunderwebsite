@@ -8,7 +8,9 @@ export function Header() {
   <Link className="brand brand-circle" href="/" aria-label="SpeedFunders home">
     <img src="/logo-circle.png" alt="SpeedFunders" />
   </Link>
-  <strong className="nav-brand-name">SPEEDFUNDERS</strong>
+<strong className="nav-brand-name">
+  <span className="brand-speed">SPEED</span><span className="brand-funders">FUNDERS</span>
+</strong>
 </div>
         <nav className="links" aria-label="Primary navigation">
           <Link href="/about">About</Link>
