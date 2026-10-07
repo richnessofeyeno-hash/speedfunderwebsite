@@ -9,7 +9,7 @@ const categories = ['All','Art','Comics','Design','Fashion','Film & Video','Game
 export default function Page(){
   const [category,setCategory] = useState('All');
   const filtered = useMemo(() => category === 'All' ? portfolio : portfolio.filter(p => p.category === category), [category]);
-  return <Shell eyebrow="Portfolio" title="80 CAMPAIGNS. REAL PROJECTS. VERIFIED DESTINATIONS.">
+  return <Shell eyebrow="Portfolio" title="EXPLORE OUR FEATURED CAMPAIGN SUCCESS STORIES.">
     <section className="section"><div className="container">
       <div className="filters">{categories.map(c=><button key={c} className={`filter ${category===c?'active':''}`} onClick={()=>setCategory(c)}>{c}</button>)}</div>
       <div className="portfolio-grid">
@@ -18,7 +18,13 @@ export default function Page(){
           <div className="portfolio-body"><h3>{p.title}</h3><div className="metric"><strong>{p.funding}</strong><small>FUNDED</small></div><div className="portfolio-meta">{p.backers ? `${p.backers} backers` : 'Campaign record'}</div><span className="text-link">VIEW KICKSTARTER CAMPAIGN ↗</span></div>
         </a>)}
       </div>
-      <p className="notice">Portfolio image mapping is intentionally not fabricated. Campaign cards will use the corresponding verified Kickstarter campaign artwork once each image URL has been checked and added to the dataset.</p>
+<div className="notice portfolio-request">
+  <strong>LOOKING FOR A SPECIFIC NICHE?</strong>
+  <p>
+    This portfolio showcases a selection of our campaign work, not our complete portfolio. If you'd like to see examples relevant to your specific niche, category, or campaign type, contact us and we'll provide relevant portfolio examples where available.
+  </p>
+  <a className="text-link" href="/contact">REQUEST RELEVANT EXAMPLES →</a>
+</div>
     </div></section>
   </Shell>
 }
