@@ -62,22 +62,6 @@ export default function Page(){
     ))}
   </div>
 
-  <div className="pricing-note community-pricing-note">
-    <h3 className="display">WHAT YOU ARE PAYING FOR</h3>
-
-    <p>
-      Your payment covers campaign review, audience matching, segmentation and targeted outreach to relevant crowdfunding supporters based on the package selected.
-    </p>
-
-    <p>
-      We do not simply provide a contact list or send the same message to everyone. SpeedFunders identifies relevant audience segments, coordinates the agreed outreach and carries out the follow-up activity included in your selected package.
-    </p>
-
-    <p>
-      The stated community size represents the maximum targeted outreach volume included in each package. Actual audience relevance and response will vary depending on the campaign, category, positioning and supporter interest.
-    </p>
-  </div>
-
 </section>
       <div className="pricing-note">
         <h3 className="display">WHAT YOU ARE PAYING FOR</h3>
