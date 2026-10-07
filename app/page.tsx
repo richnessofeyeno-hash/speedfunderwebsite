@@ -107,8 +107,24 @@ export default function Home() {
               <div className="eyebrow">Our process</div>
               <h2 className="display">PREPARE → BUILD → NURTURE → LAUNCH → REACH → CONVERT</h2>
             </div>
-            <div className="process">{stages.map((stage, n) => <div className="stage" key={stage}><b>0{n+1}</b><h3>{stage}</h3></div>)}</div>
-            <a className="text-link" href="/process">SEE OUR PROCESS →</a>
+<div className="process">
+  {[
+    ['PREPARE', 'We review your campaign, positioning, audience and core materials before promotion begins.'],
+    ['BUILD', 'We help build the audience, assets and outreach foundation needed for a stronger launch.'],
+    ['NURTURE', 'We turn early interest into intent through follow-up, email and audience engagement.'],
+    ['LAUNCH', 'We coordinate the launch push and focus early attention on the campaign while momentum matters most.'],
+    ['REACH', 'We expand relevant visibility through targeted promotion, communities and off-platform channels.'],
+    ['CONVERT', 'We help turn qualified attention into campaign visits, engagement and potential backing.'],
+  ].map(([stage, description], n) => (
+    <div className="stage" key={stage}>
+      <b>0{n + 1}</b>
+      <h3>{stage}</h3>
+      <p>{description}</p>
+    </div>
+  ))}
+</div>
+          
+      <a className="text-link" href="/process">SEE OUR PROCESS →</a>
           </div>
         </section>
 
