@@ -145,11 +145,40 @@ export default function Home() {
               <h2 className="display">150K+ CROWDFUNDING SUPPORTERS</h2>
               <p className="muted">150K+ is the size of the community. Relevance determines who we reach. We match and segment audiences rather than treating the community as a generic blast list.</p>
             </div>
-            <div className="pricing three">
-              <article className="card"><div className="eyebrow">Basic</div><div className="price">$250</div><p>Up to 10K relevant crowdfunding supporters.</p></article>
-              <article className="card featured"><div className="eyebrow">Standard</div><div className="price">$350</div><p>Up to 25K relevant crowdfunding supporters.</p></article>
-              <article className="card"><div className="eyebrow">Premium</div><div className="price">$450</div><p>Up to 50K relevant crowdfunding supporters.</p></article>
-            </div>
+<p className="community-home-copy">
+  Our growing community is built from crowdfunding supporters and backers we have reached through previous campaigns and creator projects.
+  We use this network as an additional promotional channel, matching campaigns with relevant supporter segments rather than sending every project to everyone.
+</p>
+
+<div className="community-mini-grid">
+  <article className="community-mini-card">
+    <span>01</span>
+    <h3>Campaign Review</h3>
+    <p>We review your campaign and identify its ideal backer.</p>
+  </article>
+
+  <article className="community-mini-card">
+    <span>02</span>
+    <h3>Audience Matching</h3>
+    <p>We match your project with relevant supporter segments.</p>
+  </article>
+
+  <article className="community-mini-card">
+    <span>03</span>
+    <h3>Targeted Outreach</h3>
+    <p>We introduce your campaign to relevant crowdfunding supporters.</p>
+  </article>
+
+  <article className="community-mini-card">
+    <span>04</span>
+    <h3>Follow-Up</h3>
+    <p>We maintain visibility during the agreed outreach period.</p>
+  </article>
+</div>
+
+<div className="community-home-highlight">
+  150K+ IS THE SIZE OF THE COMMUNITY. RELEVANCE DETERMINES WHO WE REACH.
+</div>
             <a className="text-link" href="/our-backers-community">REACH RELEVANT BACKERS →</a>
           </div>
         </section>
