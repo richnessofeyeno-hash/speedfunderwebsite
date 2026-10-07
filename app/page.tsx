@@ -73,8 +73,6 @@ export default function Home() {
 
   <span>Trusted by 300+ Creators Worldwide</span>
 </div>
-  <span>Trusted by 300+ Creators Worldwide</span>
-</div>
           </div>
             </div>
         </section>
