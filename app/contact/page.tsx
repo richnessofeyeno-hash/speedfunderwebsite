@@ -55,13 +55,83 @@ const [error, setError] = useState('');
     }
   }}
 >
-  <div className="field"><label htmlFor="name">Creator Name</label><input id="name" required /></div>
-          <div className="field"><label htmlFor="email">Email Address</label><input id="email" type="email" required /></div>
-          <div className="field"><label htmlFor="kickstarter">Kickstarter URL</label><input id="kickstarter" type="url" placeholder="https://www.kickstarter.com/..." required /></div>
-          <div className="field"><label htmlFor="plan">Service / Plan</label><select id="plan" required defaultValue=""><option value="" disabled>Select a service or plan</option><option>Pre-Launch — $600</option><option>Launch — $800</option><option>Full Campaign Management — $1,200</option><option>Backers Community — Basic $250</option><option>Backers Community — Standard $350</option><option>Backers Community — Premium $450</option><option>I'm not sure — Recommend the best option</option></select></div>
-<button className="btn btn-primary" type="submit" disabled={submitting}>
-  {submitting ? 'SUBMITTING...' : 'SUBMIT PROJECT →'}
-</button>
+  <div className="field">
+    <label htmlFor="name">Creator Name</label>
+    <input
+      id="name"
+      name="name"
+      type="text"
+      required
+    />
+  </div>
+
+  <div className="field">
+    <label htmlFor="email">Email Address</label>
+    <input
+      id="email"
+      name="email"
+      type="email"
+      required
+    />
+  </div>
+
+  <div className="field">
+    <label htmlFor="kickstarter">Kickstarter URL</label>
+    <input
+      id="kickstarter"
+      name="kickstarter"
+      type="url"
+      placeholder="https://www.kickstarter.com/..."
+      required
+    />
+  </div>
+
+  <div className="field">
+    <label htmlFor="plan">Service / Plan</label>
+    <select
+      id="plan"
+      name="plan"
+      required
+      defaultValue=""
+    >
+      <option value="" disabled>
+        Select a service or plan
+      </option>
+      <option>Pre-Launch — $600</option>
+      <option>Launch — $800</option>
+      <option>Full Campaign Management — $1,200</option>
+      <option>Backers Community — Basic $250</option>
+      <option>Backers Community — Standard $350</option>
+      <option>Backers Community — Premium $450</option>
+      <option>I'm not sure — Recommend the best option</option>
+    </select>
+  </div>
+
+  <button
+    className="btn btn-primary"
+    type="submit"
+    disabled={submitting}
+  >
+    {submitting ? 'SUBMITTING...' : 'SUBMIT PROJECT →'}
+  </button>
+
+  {error && (
+    <div className="notice">
+      {error}
+    </div>
+  )}
+
+  {submitted && (
+    <div className="success">
+      <strong>THANK YOU! YOUR PROJECT REQUEST HAS BEEN RECEIVED.</strong>
+      <p>
+        We’ve received your project details and our team will review your
+        submission. A member of the SpeedFunders team will reach out to you
+        shortly to discuss your campaign and the next steps.
+      </p>
+    </div>
+  )}
+</form>
   
   {error && <div className="notice">{error}</div>}
   
