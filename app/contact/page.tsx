@@ -133,9 +133,6 @@ const [error, setError] = useState('');
   )}
 </form>
   
-  {error && <div className="notice">{error}</div>}
-  
-  {submitted && <div className="success"><strong>THANK YOU! YOUR PROJECT REQUEST HAS BEEN RECEIVED.</strong><p>We’ve received your project details and our team will review your submission. A member of the SpeedFunders team will reach out to you shortly to discuss your campaign and the next steps.</p></div>}        </form>
       </div>
     </div></section>
 
