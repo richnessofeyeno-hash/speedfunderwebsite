@@ -4,9 +4,12 @@ export function Header() {
   return (
     <header className="nav">
       <div className="container nav-inner">
-        <Link className="brand brand-circle" href="/" aria-label="SpeedFunders home">
-          <img src="/logo-circle.png" alt="SpeedFunders" />
-        </Link>
+<div className="nav-brand-lockup">
+  <Link className="brand brand-circle" href="/" aria-label="SpeedFunders home">
+    <img src="/logo-circle.png" alt="SpeedFunders" />
+  </Link>
+  <strong className="nav-brand-name">SPEEDFUNDERS</strong>
+</div>
         <nav className="links" aria-label="Primary navigation">
           <Link href="/about">About</Link>
           <Link href="/services">Services</Link>
