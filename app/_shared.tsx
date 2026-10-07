@@ -40,10 +40,13 @@ export function Footer() {
     <footer className="footer">
       <div className="container footer-grid">
         <div>
-          <Link className="footer-brand brand-circle" href="/" aria-label="SpeedFunders home">
-            <img src="/logo-circle.png" alt="SpeedFunders" />
-          </Link>
-          <p className="footer-tagline">YOUR FASTEST FUNDING PARTNERS</p>
+<div className="footer-brand-row">
+  <Link className="footer-brand brand-circle" href="/" aria-label="SpeedFunders home">
+    <img src="/logo-circle.png" alt="SpeedFunders" />
+  </Link>
+  <strong className="footer-brand-name">SPEEDFUNDERS</strong>
+</div>
+<p className="footer-tagline">YOUR FASTEST FUNDING PARTNERS</p>
           <p>447 Broadway, 2nd Floor<br />New York, NY 10013, United States</p>
           <a href="mailto:team@speedfunders.com">team@speedfunders.com</a>
         </div>
