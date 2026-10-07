@@ -49,6 +49,22 @@ export function Footer() {
 <p className="footer-tagline">YOUR FASTEST FUNDING PARTNERS</p>
           <p>447 Broadway, 2nd Floor<br />New York, NY 10013, United States</p>
           <a href="mailto:team@speedfunders.com">team@speedfunders.com</a>
+          <div className="social-row">
+  <a href="https://www.facebook.com/speedfunders" target="_blank" rel="noreferrer" aria-label="SpeedFunders on Facebook">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-3.3 0-5 1.9-5 5v3H6v4h3v8h4v-8h3.3l.7-4H13V9c0-.7.3-1 1-1Z"/></svg>
+    Facebook
+  </a>
+
+  <a href="https://www.instagram.com/speedfunders" target="_blank" rel="noreferrer" aria-label="SpeedFunders on Instagram">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+    Instagram
+  </a>
+
+  <a href="https://twitter.com/speedfunders" target="_blank" rel="noreferrer" aria-label="SpeedFunders on X">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4.7l3.4 4.6L17.3 4H20l-5.7 6.3L20 20h-4.7l-3.8-5.1L6.7 20H4l6-6.8L5 4Zm3.2 2 7.8 12h1.8L10 6H8.2Z"/></svg>
+    X
+  </a>
+</div>
         </div>
         <div>
           <h4>Quick Links</h4>
@@ -78,11 +94,6 @@ export function Footer() {
             <input id="footer-email" type="email" placeholder="Enter your email" required />
             <button className="btn btn-primary full" type="submit">SUBSCRIBE</button>
           </form>
-          <div className="social-row">
-            <a href="https://www.facebook.com/speedfunders" target="_blank" rel="noreferrer">Facebook</a>
-            <a href="https://www.instagram.com/speedfunders" target="_blank" rel="noreferrer">Instagram</a>
-            <a href="https://twitter.com/speedfunders" target="_blank" rel="noreferrer">X</a>
-          </div>
         </div>
       </div>
       <div className="container copyright">
