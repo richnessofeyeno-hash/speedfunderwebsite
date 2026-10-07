@@ -14,7 +14,12 @@ const points = [
 export default function Page(){
   return <Shell eyebrow="About SpeedFunders" title="BUILT AROUND CROWDFUNDING. BUILT TO CREATE MOMENTUM.">
     <section className="section"><div className="container about-list">
-      {points.map(([eyebrow,title]) => <article className="about-block" key={eyebrow}><div className="eyebrow">{eyebrow}</div><h2 className="display">{title}</h2><p>{points.find(p=>p[0]===eyebrow)?.[2]}</p></article>)}
+{points.map(([eyebrow,text]) => (
+  <article className="about-block" key={eyebrow}>
+    <div className="eyebrow">{eyebrow}</div>
+    <p>{text}</p>
+  </article>
+))}
     </div></section>
     <section className="section grid-bg"><div className="container"><div className="section-head"><div className="eyebrow">Our differentiator</div><h2 className="display">WE DON'T SEND TRAFFIC TO A CAMPAIGN THAT ISN'T READY.</h2><p className="muted">TRAFFIC IS NOT THE STRATEGY. POSITIONING COMES FIRST.</p></div></div></section>
   </Shell>
