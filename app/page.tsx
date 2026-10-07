@@ -62,7 +62,7 @@ export default function Home() {
                 <a className="btn btn-primary" href="/contact">GET STARTED →</a>
                 <a className="btn btn-light-outline" href="/services">OUR SERVICES</a>
               </div>
-              <div className="trust-row">
+<div className="trust-row">
   <div className="trust-dots" aria-hidden="true">
     <i className="trust-logo trust-logo-1">SF</i>
     <i className="trust-logo trust-logo-2">✦</i>
@@ -71,6 +71,8 @@ export default function Home() {
     <i className="trust-logo trust-logo-5">+</i>
   </div>
 
+  <span>Trusted by 300+ Creators Worldwide</span>
+</div>
   <span>Trusted by 300+ Creators Worldwide</span>
 </div>
           </div>
