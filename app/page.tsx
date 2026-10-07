@@ -16,9 +16,15 @@ const stages = ['PREPARE','BUILD','NURTURE','LAUNCH','REACH','CONVERT'];
 
 const featuredTitles = [
   'Historical Trailblazers: Romance Collection',
-  'The Oracle of Many Paths',
-  'Keychron K3 HE & K3 Ultra: Slim Wireless Custom Keyboards',
+  'The Marvel Art of DAN DOS SANTOS - A Deluxe Art Book & More!',
+  'James S.A. Corey Returns to THE EXPANSE in A LITTLE DEATH',
+  'Fathom Timeline Omnibus: Volume 1',
+  'Mighty Morphin Power Rangers Combinable Dragonzord',
+  'D1 Milano x Peter Tarka: The Impossible Watch',
+  'noRecognition : AI Adversarial Clothing',
+  'Tex Murphy: Killing Moon Rising',
   'The World of Frostpunk: Artbook & Anthology',
+  'Keychron K3 HE & K3 Ultra: Slim Wireless Custom Keyboards',
 ];
 
 export default function Home() {
@@ -131,7 +137,7 @@ export default function Home() {
         <section className="section grid-bg">
           <div className="container">
             <div className="section-head">
-              <div className="eyebrow">Featured portfolio</div>
+              <div className="eyebrow">Featured projects</div>
               <h2 className="display">CAMPAIGNS WORTH LOOKING AT.</h2>
               <p className="muted">Featured campaigns are shown only when their campaign data and Kickstarter destination have been verified.</p>
             </div>
