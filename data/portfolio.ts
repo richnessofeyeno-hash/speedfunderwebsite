@@ -6,38 +6,34 @@ export type PortfolioItem = {
   goal: string;
   backers?: string;
   url: string;
+  image?: string;
 };
 
 // Verified campaign records currently loaded. The remaining portfolio records should
 // only be added when their exact Kickstarter URLs are supplied/verified.
 export const portfolio: PortfolioItem[] = [
   // Art
-  {title:'The Marvel Art of DAN DOS SANTOS - A Deluxe Art Book & More!',category:'Art',year:2026,funding:'$126,900',goal:'$10,000',backers:'707',url:'https://www.kickstarter.com/projects/cloverpressart/the-marvel-art-of-dan-dos-santos-a-deluxe-art-book-and-more'},
-  {title:'AKREON - Artbook by Anna Podedworna',category:'Art',year:2026,funding:'€80,028',goal:'€25,000',backers:'698',url:'https://www.kickstarter.com/projects/spiridon/akreon'},
+{title:'The Marvel Art of DAN DOS SANTOS - A Deluxe Art Book & More!',category:'Art',year:2026,funding:'$126,900',goal:'$10,000',backers:'707',url:'https://www.kickstarter.com/projects/cloverpressart/the-marvel-art-of-dan-dos-santos-a-deluxe-art-book-and-more',image:'https://static.wixstatic.com/media/320167_c1e15de4e2794468a9c08ae558c5ba32~mv2.jpg/v1/fill/w_1024%2Ch_576%2Cal_c/320167_c1e15de4e2794468a9c08ae558c5ba32~mv2.jpg'},  {title:'AKREON - Artbook by Anna Podedworna',category:'Art',year:2026,funding:'€80,028',goal:'€25,000',backers:'698',url:'https://www.kickstarter.com/projects/spiridon/akreon'},
   {title:'The Art of Sakimichan Vol 3: The Final Hard One ^_^',category:'Art',year:2026,funding:'CA$191,337',goal:'CA$75,000',backers:'797',url:'https://www.kickstarter.com/projects/artofsakimichannsfw/the-art-of-sakimichan-vol-3-the-final-hard-one'},
   {title:'The Art of Zarory',category:'Art',year:2026,funding:'€16,306',goal:'€5,000',backers:'209',url:'https://www.kickstarter.com/projects/zarory/the-art-of-zarory'},
   {title:'Arcane - Luxury Tarot and Art Playing Cards',category:'Art',year:2026,funding:'¥15,033,633',goal:'¥1,000,000',backers:'976',url:'https://www.kickstarter.com/projects/jackbrutuspenny/arcane-luxury-tarot-and-art-playing-cards'},
   {title:'The Oracle of Many Paths',category:'Art',year:2025,funding:'$277,399',goal:'$50,000',backers:'3,074',url:'https://www.kickstarter.com/projects/jamesreads/the-oracle-of-many-paths'},
 
   // Comics
-  {title:'James S.A. Corey Returns to THE EXPANSE in A LITTLE DEATH',category:'Comics',year:2025,funding:'$897,653',goal:'$50,000',backers:'8,173',url:'https://www.kickstarter.com/projects/boom-studios/james-sa-corey-returns-to-the-expanse-in-a-little-death'},
-  {title:'Witches of Oz #1-4: THE WICCA COVEN!',category:'Comics',year:2026,funding:'$55,954',goal:'$22,000',backers:'1,285',url:'https://www.kickstarter.com/projects/comicuno/woz4/'},
+{title:'James S.A. Corey Returns to THE EXPANSE in A LITTLE DEATH',category:'Comics',year:2025,funding:'$897,653',goal:'$50,000',backers:'8,173',url:'https://www.kickstarter.com/projects/boom-studios/james-sa-corey-returns-to-the-expanse-in-a-little-death',image:'https://images.cgames.de/images/gamestar/290/the-expanse-a-little-death_6351238.jpg'},  {title:'Witches of Oz #1-4: THE WICCA COVEN!',category:'Comics',year:2026,funding:'$55,954',goal:'$22,000',backers:'1,285',url:'https://www.kickstarter.com/projects/comicuno/woz4/'},
   {title:'Submachine | Comic Book',category:'Comics',year:2026,funding:'€82,490',goal:'€20,000',backers:'939',url:'https://www.kickstarter.com/projects/mateuszskutnik/submachine-comic-book'},
   {title:'SUGAR POP: The Fly on Windscreen pt. 2',category:'Comics',year:2026,funding:'$68,866',goal:'$5,000',backers:'833',url:'https://www.kickstarter.com/projects/danmendoza/sugar-pop-the-fly-on-windscreen-pt-2'},
-  {title:'Fathom Timeline Omnibus: Volume 1',category:'Comics',year:2026,funding:'$189,258',goal:'$50,000',backers:'1,179',url:'https://www.kickstarter.com/projects/aspencomics/fathom-timeline-omnibus-volume-1'},
-  {title:'FREQ: Volume #1',category:'Comics',year:2026,funding:'€35,937',goal:'€20,000',backers:'583',url:'https://www.kickstarter.com/projects/freqmanga/freq-volume-1'},
+{title:'Fathom Timeline Omnibus: Volume 1',category:'Comics',year:2026,funding:'$189,258',goal:'$50,000',backers:'1,179',url:'https://www.kickstarter.com/projects/aspencomics/fathom-timeline-omnibus-volume-1',image:'https://pbs.twimg.com/media/HBiQMhXagAA3XyU.jpg'},  {title:'FREQ: Volume #1',category:'Comics',year:2026,funding:'€35,937',goal:'€20,000',backers:'583',url:'https://www.kickstarter.com/projects/freqmanga/freq-volume-1'},
   {title:'The Mandawhorian',category:'Comics',year:2026,funding:'$10,564',goal:'$500',backers:'260',url:'https://www.kickstarter.com/projects/divinity--comics/the-mandawhorian'},
   {title:'Devil\'s Due Presents: Mercy Sparx - 25th Anniversary Special',category:'Comics',year:2026,funding:'$12,549',goal:'$5,555',backers:'223',url:'https://www.kickstarter.com/projects/joshcblaylock/devils-due-presents-mercy-sparx'},
 
   // Design
-  {title:'Mighty Morphin Power Rangers Combinable Dragonzord',category:'Design',year:2026,funding:'$782,530',goal:'$400,000',backers:'7,883',url:'https://www.kickstarter.com/projects/playmatestoys/mighty-morphin-power-rangers-combinable-dragonzord'},
-  {title:'D1 Milano x Peter Tarka: The Impossible Watch',category:'Design',year:2026,funding:'$415,041',goal:'$15,000',backers:'943',url:'https://www.kickstarter.com/projects/840192188/d1-milano-x-peter-tarka-the-impossible-watch'},
-  {title:'Renote Snap: World’s 1st Metal Notebook Wallet',category:'Design',year:2026,funding:'£68,119',goal:'£1,127',backers:'847',url:'https://www.kickstarter.com/projects/renote-snap/renote-snap-worlds-first-7-in-1-notebook-wallet'},
+{title:'Mighty Morphin Power Rangers Combinable Dragonzord',category:'Design',year:2026,funding:'$782,530',goal:'$400,000',backers:'7,883',url:'https://www.kickstarter.com/projects/playmatestoys/mighty-morphin-power-rangers-combinable-dragonzord',image:'https://i.kickstarter.com/assets/054/790/343/61d45342b0778d71101371f73087a2a9_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&sig=yUJ8lC4Y1FLhrxgn4lnCnZ4bOrz0W333L6OFBonmnOI%3D&v=1786998534&width=1552'}, 
+{title:'D1 Milano x Peter Tarka: The Impossible Watch',category:'Design',year:2026,funding:'$415,041',goal:'$15,000',backers:'943',url:'https://www.kickstarter.com/projects/840192188/d1-milano-x-peter-tarka-the-impossible-watch',image:'https://wornandwound.com/library/uploads/2026/06/D1-Milano-x-Peter-Tarka-58.jpg'},  {title:'Renote Snap: World’s 1st Metal Notebook Wallet',category:'Design',year:2026,funding:'£68,119',goal:'£1,127',backers:'847',url:'https://www.kickstarter.com/projects/renote-snap/renote-snap-worlds-first-7-in-1-notebook-wallet'},
   {title:'KEI PACK | The Future of EU Hand Luggage',category:'Design',year:2026,funding:'€10,404',goal:'€2,500',backers:'90',url:'https://www.kickstarter.com/projects/931698574/kei-carry-on-the-future-of-eu-hand-luggage'},
 
   // Fashion
-  {title:'noRecognition : AI Adversarial Clothing',category:'Fashion',year:2026,funding:'$204,288',goal:'$5,000',backers:'1,213',url:'https://www.kickstarter.com/projects/norecognition/norecognition-ai-adversarial-clothing'},
-  {title:'The Unbound Performance Quarter Zip & Overshirt',category:'Fashion',year:2026,funding:'$85,484',goal:'$10,000',backers:'420',url:'https://www.kickstarter.com/projects/woodiesdenim/the-unbound-performance-quarter-zip-and-overshirt'},
+{title:'noRecognition : AI Adversarial Clothing',category:'Fashion',year:2026,funding:'$204,288',goal:'$5,000',backers:'1,213',url:'https://www.kickstarter.com/projects/norecognition/norecognition-ai-adversarial-clothing',image:'https://s1.cdn.autoevolution.com/images/news/gallery/man-finds-creative-solution-to-surveillance-camera-tracking-rendering-flock-cameras-useless_1.jpg'},  {title:'The Unbound Performance Quarter Zip & Overshirt',category:'Fashion',year:2026,funding:'$85,484',goal:'$10,000',backers:'420',url:'https://www.kickstarter.com/projects/woodiesdenim/the-unbound-performance-quarter-zip-and-overshirt'},
   {title:'LAY YOUR BONES - An Ode to Natural Fibre',category:'Fashion',year:2026,funding:'AU$31,000',goal:'AU$30,000',backers:'46',url:'https://www.kickstarter.com/projects/layyourbones/lay-your-bones-an-ode-to-natural-fibre'},
   {title:'Ember Bison: Unexpectedly Soft. Deeply Durable Apparel',category:'Fashion',year:2026,funding:'$5,217',goal:'$5,000',backers:'12',url:'https://www.kickstarter.com/projects/1925399328/ember-bison-unexpectedly-soft-deeply-durable-apparel'},
 
@@ -50,8 +46,7 @@ export const portfolio: PortfolioItem[] = [
   {title:'The Commodore 64: The Birth of a Cultural Icon',category:'Film & Video',year:2026,funding:'£134,759',goal:'£55,000',backers:'2,616',url:'https://www.kickstarter.com/projects/graciousfilms/the-commodore-64-the-birth-of-a-cultural-icon'},
 
   // Games
-  {title:'Tex Murphy: Killing Moon Rising',category:'Games',year:2026,funding:'$482,875',goal:'$50,000',backers:'4,502',url:'https://www.kickstarter.com/projects/texmurphy/tex-murphy-killing-moon-rising'},
-  {title:'AdventureQuest Worlds: Infinity',category:'Games',year:2026,funding:'$2,149,404',goal:'$1',backers:'28,917',url:'https://www.kickstarter.com/projects/artix/adventurequest-worlds-infinity'},
+{title:'Tex Murphy: Killing Moon Rising',category:'Games',year:2026,funding:'$482,875',goal:'$50,000',backers:'4,502',url:'https://www.kickstarter.com/projects/texmurphy/tex-murphy-killing-moon-rising',image:'https://www.pcgameshardware.de/screenshots/original/2026/06/Tex_Murphy_Under_a_Killing_Moon_Rising-pcgh_artwork.jpg'},  {title:'AdventureQuest Worlds: Infinity',category:'Games',year:2026,funding:'$2,149,404',goal:'$1',backers:'28,917',url:'https://www.kickstarter.com/projects/artix/adventurequest-worlds-infinity'},
   {title:'Rolling Deep & Eureka | Dice Adventure Roguelike & Campaign',category:'Games',year:2026,funding:'$720,547',goal:'$15,000',backers:'6,209',url:'https://www.kickstarter.com/projects/bitewinggamesnick/rolling-deep-and-eureka-dice-adventure-roguelike-and-campaign'},
   {title:'PDX ✈️ The Airport Game',category:'Games',year:2026,funding:'$447,095',goal:'$22,000',backers:'4,670',url:'https://www.kickstarter.com/projects/waterworks/pdx'},
   {title:'Slay the Spire: The Board Game - Downfall',category:'Games',year:2026,funding:'$7,624,941',goal:'$50,000',backers:'38,134',url:'https://www.kickstarter.com/projects/contentiongames/sts-downfall/'},
@@ -62,20 +57,16 @@ export const portfolio: PortfolioItem[] = [
   {title:'Logic & Lore 2nd Edition & Expansion',category:'Games',year:2026,funding:'$107,421',goal:'$9,000',backers:'1,960',url:'https://www.kickstarter.com/projects/weirdgiraffegames/logic-and-lore-2nd-edition'},
 
   // Publishing
-  {title:'Historical Trailblazers: Romance Collection',category:'Publishing',year:2026,funding:'$395,385',goal:'$10,000',backers:'1,497',url:'https://www.kickstarter.com/projects/ahpublishing/historical-trailblazers-romance-collection'},
-  {title:'Community Made',category:'Publishing',year:2026,funding:'CA$297,741',goal:'CA$50,000',backers:'546',url:'https://www.kickstarter.com/projects/communitymade/community-made-help-get-this-book-into-the-right-hands'},
-  {title:'Kenner Wars',category:'Publishing',year:2026,funding:'€183,451',goal:'€30,000',backers:'2,308',url:'https://www.kickstarter.com/projects/pulsebooks/kennerwars'},
+{title:'Historical Trailblazers: Romance Collection',category:'Publishing',year:2026,funding:'$395,385',goal:'$10,000',backers:'1,497',url:'https://www.kickstarter.com/projects/ahpublishing/historical-trailblazers-romance-collection',image:'https://i.kickstarter.com/assets/053/761/868/1bf43276e70c692c5b630c269cd6775a_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&sig=W8vQaStRv6%2B9QzEeXmVgkVaqfhym24LjnwGglgTgYyE%3D&v=1779033738&width=1552'},  {title:'Kenner Wars',category:'Publishing',year:2026,funding:'€183,451',goal:'€30,000',backers:'2,308',url:'https://www.kickstarter.com/projects/pulsebooks/kennerwars'},
   {title:'Hypothesis Series: Let’s Get Nerdy',category:'Publishing',year:2026,funding:'$172,623',goal:'$25,000',backers:'425',url:'https://www.kickstarter.com/projects/pennyreid/hypothesis-series-lets-get-nerdy'},
   {title:'Mother of Learning: ARC 1 — Illustrated Deluxe Edition',category:'Publishing',year:2026,funding:'$151,727',goal:'$10,000',backers:'970',url:'https://www.kickstarter.com/projects/wraithmarked/mol1dlx'},
   {title:'The Odyssey - Special Limited Edition',category:'Publishing',year:2026,funding:'$148,407',goal:'$10,000',backers:'1,359',url:'https://www.kickstarter.com/projects/wraithmarked/odyssey-1'},
   {title:'Junichiro Jackson (JJ) — Psychological Thriller Manga Series',category:'Publishing',year:2026,funding:'$103,574',goal:'$42,000',backers:'890',url:'https://www.kickstarter.com/projects/teamto/jj'},
   {title:'Shadows of the Tenebris Court: Collector\'s Edition Romantasy',category:'Publishing',year:2026,funding:'£83,428',goal:'£5,000',backers:'604',url:'https://www.kickstarter.com/projects/claresager/shadows-of-the-tenebris-court-collectors-edition-romantasy'},
-  {title:'The World of Frostpunk: Artbook & Anthology',category:'Publishing',year:2025,funding:'€638,203',goal:'€50,000',backers:'3,807',url:'https://www.kickstarter.com/projects/11bitstudios/frostpunk-anthology-and-frostpunk-2-artbook'},
-
+{title:'The World of Frostpunk: Artbook & Anthology',category:'Publishing',year:2025,funding:'€638,203',goal:'€50,000',backers:'3,807',url:'https://www.kickstarter.com/projects/11bitstudios/frostpunk-anthology-and-frostpunk-2-artbook',image:'https://static.wixstatic.com/media/320167_fe470cf37b894c579e8c1d22d02e480e~mv2.jpg/v1/fill/w_900%2Ch_1125%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/320167_fe470cf37b894c579e8c1d22d02e480e~mv2.jpg'},
   {title:'PetyPot - AI-Powered Litter-Free Self-Cleaning Cat Toilet',category:'Technology',year:2025,funding:'$650,548',goal:'$10,000',backers:'1,511',url:'https://www.kickstarter.com/projects/petypot/petypot'},
   // Technology
-  {title:'Keychron K3 HE & K3 Ultra: Slim Wireless Custom Keyboards',category:'Technology',year:2026,funding:'$284,900',goal:'$10,000',backers:'2,044',url:'https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards'},
-  {title:'Ray: Watch Anything. Understand Everything.',category:'Technology',year:2026,funding:'$227,420',goal:'$26,000',backers:'1,117',url:'https://www.kickstarter.com/projects/techspecs/ray-watch-anything-understand-everything'},
+{title:'Keychron K3 HE & Keychron K3 Ultra: Slim Wireless Custom Keyboards',category:'Technology',year:2026,funding:'$284,900',goal:'$10,000',backers:'2,044',url:'https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards',image:'https://assets.st-note.com/production/uploads/images/261213791/rectangle_large_type_2_23a11982ad474884a6fc41fa20b61f92.png?width=1280'},  {title:'Ray: Watch Anything. Understand Everything.',category:'Technology',year:2026,funding:'$227,420',goal:'$26,000',backers:'1,117',url:'https://www.kickstarter.com/projects/techspecs/ray-watch-anything-understand-everything'},
   {title:'Owl3D Shift: The Glasses-Free 3D Portal for Your PC',category:'Technology',year:2026,funding:'$347,611',goal:'$50,000',backers:'795',url:'https://www.kickstarter.com/projects/owl3d/owl3d-shift-the-glasses-free-3d-portal-for-your-pc'},
   {title:'KeyGo Gen2 Pro: Slim Foldable Keyboard with 4K Touchscreen',category:'Technology',year:2026,funding:'HK$4,965,010',goal:'HK$30,000',backers:'1,770',url:'https://www.kickstarter.com/projects/1794064432/keygo-gen2-ultra-slim-folding-keyboard-with-4k-touch-screen'},
   {title:'FocusRay - VR FacialTracking Device',category:'Technology',year:2026,funding:'¥18,488,436',goal:'¥4,000,000',backers:'1,306',url:'https://www.kickstarter.com/projects/aoharunext/focusray-vr-facialtracking-device/'},
