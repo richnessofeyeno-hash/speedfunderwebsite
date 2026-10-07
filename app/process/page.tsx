@@ -10,9 +10,62 @@ const stages = [
 ];
 
 export default function Page(){
-  return <Shell eyebrow="Process" title="PREPARE → BUILD → NURTURE → LAUNCH → REACH → CONVERT">
-    <section className="section"><div className="container process-list">
-      {stages.map(([n,name,time,body]) => <article className="process-detail" key={n}><div className="process-number">{n}</div><div><div className="eyebrow">{name}</div><h2 className="display">{time}</h2><p>{body}</p></div></article>)}
-    </div></section>
-  </Shell>
+  return (
+    <Shell eyebrow="Process" title="OUR CROWDFUNDING PROCESS">
+      <section className="section process-headline-section">
+        <div className="container">
+          <div className="process-headline-grid">
+            <div className="process-headline-card">
+              <span>01</span>
+              <strong>PREPARE</strong>
+              <b>→</b>
+            </div>
+
+            <div className="process-headline-card">
+              <span>02</span>
+              <strong>BUILD</strong>
+              <b>→</b>
+            </div>
+
+            <div className="process-headline-card">
+              <span>03</span>
+              <strong>NURTURE</strong>
+            </div>
+
+            <div className="process-headline-card">
+              <span>04</span>
+              <strong>LAUNCH</strong>
+              <b>→</b>
+            </div>
+
+            <div className="process-headline-card">
+              <span>05</span>
+              <strong>REACH</strong>
+              <b>→</b>
+            </div>
+
+            <div className="process-headline-card">
+              <span>06</span>
+              <strong>CONVERT</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container process-list">
+          {stages.map(([n,name,time,body]) => (
+            <article className="process-detail" key={n}>
+              <div className="process-number">{n}</div>
+              <div>
+                <div className="eyebrow">{name}</div>
+                <h2 className="display">{time}</h2>
+                <p>{body}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    </Shell>
+  )
 }
