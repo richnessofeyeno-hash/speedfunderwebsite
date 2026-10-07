@@ -65,10 +65,6 @@ export default function Home() {
               <div className="trust-row">
                 <div className="trust-dots" aria-hidden="true"><i/><i/><i/><i/><i/></div>
                 <span>Trusted by 300+ Creators Worldwide</span>
-              </div>
-            </div>
-            <div className="hero-brand-art">
-              <img src="/hero-brand.png" alt="SpeedFunders crowdfunding marketing brand artwork" />
             </div>
           </div>
         </section>
