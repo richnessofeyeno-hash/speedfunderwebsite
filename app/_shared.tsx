@@ -13,32 +13,31 @@ export function Header() {
     </strong>
 
     <nav className="links" aria-label="Primary navigation">
-</div>
-        <nav className="links" aria-label="Primary navigation">
-          <Link href="/about">About</Link>
-          <Link href="/services">Services</Link>
-          <Link href="/process">Process</Link>
-          <Link href="/our-backers-community">Our Backers Community</Link>
-          <a href="/portfolio" target="_blank" rel="noreferrer">Portfolio ↗</a>
-          <Link href="/pricing">Pricing</Link>
-          <Link href="/contact">Contact</Link>
-          <Link className="btn btn-primary nav-cta" href="/contact">GET STARTED →</Link>
-        </nav>
-        <details className="mobile-menu">
-          <summary aria-label="Open navigation">☰</summary>
-          <nav className="mobile-nav">
-            <Link href="/about">About</Link>
-            <Link href="/services">Services</Link>
-            <Link href="/process">Process</Link>
-            <Link href="/our-backers-community">Our Backers Community</Link>
-            <a href="/portfolio" target="_blank" rel="noreferrer">Portfolio ↗</a>
-            <Link href="/pricing">Pricing</Link>
-            <Link href="/contact">Contact</Link>
-            <Link className="btn btn-primary" href="/contact">GET STARTED →</Link>
-          </nav>
-        </details>
-      </div>
-    </header>
+      <Link href="/about">About</Link>
+      <Link href="/services">Services</Link>
+      <Link href="/process">Process</Link>
+      <Link href="/our-backers-community">Our Backers Community</Link>
+      <a href="/portfolio" target="_blank" rel="noreferrer">Portfolio ↗</a>
+      <Link href="/pricing">Pricing</Link>
+      <Link href="/contact">Contact</Link>
+      <Link className="btn btn-primary nav-cta" href="/contact">GET STARTED →</Link>
+    </nav>
+
+    <details className="mobile-menu">
+      <summary aria-label="Open navigation">☰</summary>
+      <nav className="mobile-nav">
+        <Link href="/about">About</Link>
+        <Link href="/services">Services</Link>
+        <Link href="/process">Process</Link>
+        <Link href="/our-backers-community">Our Backers Community</Link>
+        <a href="/portfolio" target="_blank" rel="noreferrer">Portfolio ↗</a>
+        <Link href="/pricing">Pricing</Link>
+        <Link href="/contact">Contact</Link>
+        <Link className="btn btn-primary" href="/contact">GET STARTED →</Link>
+      </nav>
+    </details>
+  </div>
+</header>
   );
 }
 
