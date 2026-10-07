@@ -9,32 +9,45 @@ const communityPlans = [
   [
     'BASIC',
     '$250',
-    'Targeted crowdfunding outreach for creators who already have the foundation in place.',
-    'Includes campaign review, audience matching and targeted outreach to up to 10K relevant crowdfunding supporters. We focus the outreach on people whose interests are aligned with the campaign rather than sending a generic broadcast.'
+    'Up to 10K relevant crowdfunding supporters',
+    'Campaign review, audience matching, targeted email promotion, one newsletter placement, one follow-up and a basic performance report.'
   ],
   [
     'STANDARD',
     '$350',
-    'A broader targeted outreach option for creators seeking more crowdfunding exposure.',
-    'Includes campaign review, audience segmentation, targeted outreach to up to 25K relevant crowdfunding supporters and follow-up activity where appropriate. Messaging is aligned with the campaign positioning and intended audience.'
+    'Up to 25K relevant crowdfunding supporters',
+    'Everything in Basic, with broader reach, dedicated newsletter placement, two follow-ups, additional segmentation, campaign messaging and a performance summary.'
   ],
   [
     'PREMIUM',
     '$450',
-    'Our highest-volume targeted crowdfunding community outreach option.',
-    'Includes campaign review, audience matching, targeted outreach to up to 50K relevant crowdfunding supporters and follow-up activity where appropriate. We prioritize relevance and audience fit rather than indiscriminate database blasting.'
+    'Up to 50K relevant crowdfunding supporters',
+    'Everything in Standard, with multiple audience segments, three follow-ups, campaign-specific messaging, urgency follow-up, tracking and a final performance report.'
   ],
 ];
 export default function Page(){
   return <Shell eyebrow="Pricing" title="CLEAR PRICING. CLEAR SCOPE.">
     <section className="section"><div className="container">
       <div className="pricing three">{plans.map(([name,price,best,body],i)=><article className={`card price-card ${i===2?'featured':''}`} key={name}><div className="eyebrow">{name}</div><div className="price">{price}</div><h3>{best}</h3><p>{body}</p><a className="text-link" href="/contact">GET STARTED →</a></article>)}</div>
-      <section className="community-pricing-section">
+     <section className="community-pricing-section">
+
   <div className="section-head">
-    <div className="eyebrow">Our Backers Community</div>
-    <h2 className="display">TARGETED CROWDFUNDING OUTREACH.</h2>
+    <div className="eyebrow">BACKERS COMMUNITY</div>
+
+    <h2 className="display">
+      ACCESS OUR BACKERS COMMUNITY
+    </h2>
+
     <p className="muted">
-      Choose the outreach level that matches your campaign needs. These packages provide targeted exposure to relevant crowdfunding supporters and are designed for creators who already have much of their campaign foundation in place.
+      For creators who want to put their campaign in front of relevant members of our crowdfunding supporters community through targeted outreach.
+    </p>
+
+    <p className="muted">
+      Unlike Full Campaign Management, these packages do not cover the complete marketing journey. Instead, SpeedFunders focuses specifically on matching your campaign with relevant crowdfunding supporters and carrying out targeted outreach based on the package selected.
+    </p>
+
+    <p className="muted">
+      This option is ideal for creators who already have their campaign foundation in place and need additional targeted exposure through a focused crowdfunding audience.
     </p>
   </div>
 
@@ -45,20 +58,26 @@ export default function Page(){
         <div className="price">{price}</div>
         <h3>{best}</h3>
         <p>{body}</p>
-        <a className="text-link" href="/contact">GET STARTED →</a>
       </article>
     ))}
   </div>
 
   <div className="pricing-note community-pricing-note">
     <h3 className="display">WHAT YOU ARE PAYING FOR</h3>
+
     <p>
-      Your payment covers campaign review, audience matching, segmentation and targeted outreach to relevant crowdfunding supporters based on the selected package. SpeedFunders does not simply provide access to a contact list or send the same message to everyone. We determine which audience segments are more relevant to the campaign, coordinate the agreed outreach and use appropriate follow-up where applicable.
+      Your payment covers campaign review, audience matching, segmentation and targeted outreach to relevant crowdfunding supporters based on the package selected.
     </p>
+
     <p>
-      The community size represents the maximum targeted outreach volume included in the selected package: up to 10K supporters with Basic, up to 25K with Standard, or up to 50K with Premium. Audience relevance and response will vary by campaign, category, positioning and supporter interest.
+      We do not simply provide a contact list or send the same message to everyone. SpeedFunders identifies relevant audience segments, coordinates the agreed outreach and carries out the follow-up activity included in your selected package.
+    </p>
+
+    <p>
+      The stated community size represents the maximum targeted outreach volume included in each package. Actual audience relevance and response will vary depending on the campaign, category, positioning and supporter interest.
     </p>
   </div>
+
 </section>
       <div className="pricing-note">
         <h3 className="display">WHAT YOU ARE PAYING FOR</h3>
