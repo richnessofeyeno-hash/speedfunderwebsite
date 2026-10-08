@@ -46,8 +46,7 @@ export const portfolio: PortfolioItem[] = [
   {title:'The Commodore 64: The Birth of a Cultural Icon',category:'Film & Video',year:2026,funding:'£134,759',goal:'£55,000',backers:'2,616',url:'https://www.kickstarter.com/projects/graciousfilms/the-commodore-64-the-birth-of-a-cultural-icon'},
 
   // Games
-  {title:'Tex Murphy: Killing Moon Rising',category:'Games',year:2026,funding:'$482,875',goal:'$50,000',backers:'4,502',url:'https://www.kickstarter.com/projects/texmurphy/tex-murphy-killing-moon-rising',image:'/portfolio/tex-murphy.jpg'},
-  {title:'Rolling Deep & Eureka | Dice Adventure Roguelike & Campaign',category:'Games',year:2026,funding:'$720,547',goal:'$15,000',backers:'6,209',url:'https://www.kickstarter.com/projects/bitewinggamesnick/rolling-deep-and-eureka-dice-adventure-roguelike-and-campaign'},
+  {title:'Tex Murphy: Killing Moon Rising',category:'Games',year:2026,funding:'$482,875',goal:'$50,000',backers:'4,502',url:'https://www.kickstarter.com/projects/texmurphy/tex-murphy-killing-moon-rising',image:'/tex-murphy.jpg'},  {title:'Rolling Deep & Eureka | Dice Adventure Roguelike & Campaign',category:'Games',year:2026,funding:'$720,547',goal:'$15,000',backers:'6,209',url:'https://www.kickstarter.com/projects/bitewinggamesnick/rolling-deep-and-eureka-dice-adventure-roguelike-and-campaign'},
   {title:'PDX ✈️ The Airport Game',category:'Games',year:2026,funding:'$447,095',goal:'$22,000',backers:'4,670',url:'https://www.kickstarter.com/projects/waterworks/pdx'},
   {title:'Slay the Spire: The Board Game - Downfall',category:'Games',year:2026,funding:'$7,624,941',goal:'$50,000',backers:'38,134',url:'https://www.kickstarter.com/projects/contentiongames/sts-downfall/'},
   {title:'Runeway - A Self Discovery Roleplaying Game',category:'Games',year:2026,funding:'€76,893',goal:'€10,000',backers:'1,030',url:'https://www.kickstarter.com/projects/manaprojectstudio/runeway'},
