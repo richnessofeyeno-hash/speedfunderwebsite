@@ -12,8 +12,9 @@ export function Header() {
       <span className="brand-speed">SPEED</span><span className="brand-funders">FUNDERS</span>
     </strong>
 
-    <nav className="links" aria-label="Primary navigation">
-      <Link href="/about">About</Link>
+<nav className="links" aria-label="Primary navigation">
+  <Link href="/">Home</Link>
+  <Link href="/about">About</Link>
       <Link href="/services">Services</Link>
       <Link href="/process">Process</Link>
       <Link href="/our-backers-community">Our Backers Community</Link>
@@ -25,8 +26,9 @@ export function Header() {
 
     <details className="mobile-menu">
       <summary aria-label="Open navigation">☰</summary>
-      <nav className="mobile-nav">
-        <Link href="/about">About</Link>
+<nav className="mobile-nav">
+  <Link href="/">Home</Link>
+  <Link href="/about">About</Link>
         <Link href="/services">Services</Link>
         <Link href="/process">Process</Link>
         <Link href="/our-backers-community">Our Backers Community</Link>
