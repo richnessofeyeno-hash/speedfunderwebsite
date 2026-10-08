@@ -53,7 +53,7 @@ export const portfolio: PortfolioItem[] = [
 {title:'Keres: Blood & Shadow One-Shot',category:'Comics',year:2026,funding:'$50,884',goal:'$4,900',backers:'554',url:'https://www.kickstarter.com/projects/zenescopecomics/keres-blood-and-shadow-one-shot',image:'/keres-blood-shadow.jpg'},
 
 {title:'BURLAP VOL. 1 GRAPHIC NOVEL',category:'Comics',year:2026,funding:'$5,391',goal:'$5,000',backers:'104',url:'https://www.kickstarter.com/projects/burlapcomics/burlap-vol-1-graphic-novel',image:'/burlap-vol-1.jpg'},
-  
+
   // Design
 {title:'Renote Snap: World’s 1st Metal Notebook Wallet',category:'Design',year:2026,funding:'£68,119',goal:'£1,127',backers:'847',url:'https://www.kickstarter.com/projects/renote-snap/renote-snap-worlds-first-7-in-1-notebook-wallet',image:'/renote-snap.jpg'},
 
@@ -70,7 +70,7 @@ export const portfolio: PortfolioItem[] = [
 {title:'TDM. Neo | Headphones That Transform into a Speaker',category:'Design',year:2026,funding:'$154,113',goal:'$10,000',backers:'766',url:'https://www.kickstarter.com/projects/1973963736/tdm-neo-headphones-that-transform-into-a-speaker',image:'/tdm-neo.jpg'},
 
 {title:'Artella | The Modular Carry System',category:'Design',year:2026,funding:'€12,893',goal:'€5,120',backers:'36',url:'https://www.kickstarter.com/projects/artsyna/artella-a-modular-carry-system-for-work-gym-and-travel',image:'/artella.jpg'},
-  
+
   // Fashion
 {title:'The Unbound Performance Quarter Zip & Overshirt',category:'Fashion',year:2026,funding:'$85,484',goal:'$10,000',backers:'420',url:'https://www.kickstarter.com/projects/woodiesdenim/the-unbound-performance-quarter-zip-and-overshirt',image:'/unbound-performance.jpg'},
 
@@ -89,55 +89,89 @@ export const portfolio: PortfolioItem[] = [
 {title:'SOTTOS: All-Terrain Luggage',category:'Fashion',year:2024,funding:'$240,680',goal:'$75,000',backers:'643',url:'https://www.kickstarter.com/projects/sottos/sottos-all-terrain-luggage',image:'/sottos.jpg'},
 
 {title:'Mesolite: Modular Bag System',category:'Fashion',year:2025,funding:'$137,028',goal:'$125,000',backers:'115',url:'https://www.kickstarter.com/projects/mesolite/mesolite-modular-bag-system',image:'/mesolite.jpg'},
-  
+
   // Film & Video
-{title:'RICKY Film Pay-It-Forward $250,000 Impact Campaign',category:'Film & Video',year:2026,...,image:'/ricky.jpg'},
+{title:'RICKY Film Pay-It-Forward $250,000 Impact Campaign',category:'Film & Video',year:2026,funding:'$60,712',goal:'$50,000',backers:'120',url:'https://www.kickstarter.com/projects/rickythemovie/ricky-film-2026',image:'/ricky.jpg'},
 
-{title:'Small Town Monsters 2026: UFOs, Dogman, and Bigfoot',category:'Film & Video',year:2026,...,image:'/small-town-monsters.jpg'},
+{title:'Small Town Monsters 2026: UFOs, Dogman, and Bigfoot',category:'Film & Video',year:2026,funding:'$106,787',goal:'$70,000',backers:'485',url:'https://www.kickstarter.com/projects/minervamonster/small-town-monsters-2026-ufos-dogman-and-bigfoot',image:'/small-town-monsters.jpg'},
 
-{title:'The Last Picture Shop - Feature Documentary',category:'Film & Video',year:2026,...,image:'/last-picture-shop.jpg'},
+{title:'The Last Picture Shop - Feature Documentary',category:'Film & Video',year:2026,funding:'£56,162',goal:'£30,000',backers:'779',url:'https://www.kickstarter.com/projects/tlps/the-last-picture-shop-feature-documentary',image:'/last-picture-shop.jpg'},
 
-{title:'HALFRICAN',category:'Film & Video',year:2026,...,image:'/halfrican.jpg'},
+{title:'HALFRICAN',category:'Film & Video',year:2026,funding:'$39,153',goal:'$20,000',backers:'257',url:'https://www.kickstarter.com/projects/halfricanshow/halfrican',image:'/halfrican.jpg'},
 
-{title:'Talitha | A Miraculous Resurrection Feature Film',category:'Film & Video',year:2026,...,image:'/talitha.jpg'},
+{title:'Talitha | A Miraculous Resurrection Feature Film',category:'Film & Video',year:2026,funding:'$30,000',goal:'$27,000',backers:'132',url:'https://www.kickstarter.com/projects/refocuscreative/talitha-a-miraculous-resurrection-story',image:'/talitha.jpg'},
 
-{title:'The Commodore 64: The Birth of a Cultural Icon',category:'Film & Video',year:2026,...,image:'/commodore-64.jpg'},
+{title:'The Commodore 64: The Birth of a Cultural Icon',category:'Film & Video',year:2026,funding:'£134,759',goal:'£55,000',backers:'2,616',url:'https://www.kickstarter.com/projects/graciousfilms/the-commodore-64-the-birth-of-a-cultural-icon',image:'/commodore-64.jpg'},
 
-{title:'BOWHUNTER',category:'Film & Video',year:2026,...,image:'/bowhunter.jpg'},
+{title:'BOWHUNTER',category:'Film & Video',year:2026,funding:'NZ$5,171',goal:'NZ$5,000',backers:'28',url:'https://www.kickstarter.com/projects/raroa/bowhunter/',image:'/bowhunter.jpg'},
 
-{title:'Wait in the Wings: Buried Treasure',category:'Film & Video',year:2026,...,image:'/wait-in-the-wings.jpg'},
+{title:'Wait in the Wings: Buried Treasure',category:'Film & Video',year:2026,funding:'$40,339',goal:'$15,000',backers:'282',url:'https://www.kickstarter.com/projects/waitinthewings/wait-in-the-wings-buried-treasure',image:'/wait-in-the-wings.jpg'},
 
-{title:'The Madoff Suit Project',category:'Film & Video',year:2026,...,image:'/madoff-suit-project.jpg'},
+{title:'The Madoff Suit Project',category:'Film & Video',year:2026,funding:'$2,673',goal:'$1,000',backers:'34',url:'https://www.kickstarter.com/projects/vdpod/the-madoff-suit-project',image:'/madoff-suit-project.jpg'},
 
-{title:'TURMOIL IN THE TOYBOX - Feature Film Finishing Funds',category:'Film & Video',year:2026,...,image:'/turmoil-in-the-toybox.jpg'},
-  
+{title:'TURMOIL IN THE TOYBOX - Feature Film Finishing Funds',category:'Film & Video',year:2026,funding:'$108,476',goal:'$75,000',backers:'964',url:'https://www.kickstarter.com/projects/1418036943/turmoil-in-the-toybox-feature-film-finishing-funds',image:'/turmoil-in-the-toybox.jpg'},
+
   // Games
-  {title:'Tex Murphy: Killing Moon Rising',category:'Games',year:2026,funding:'$482,875',goal:'$50,000',backers:'4,502',url:'https://www.kickstarter.com/projects/texmurphy/tex-murphy-killing-moon-rising',image:'/tex-murphy.jpg'},  {title:'Rolling Deep & Eureka | Dice Adventure Roguelike & Campaign',category:'Games',year:2026,funding:'$720,547',goal:'$15,000',backers:'6,209',url:'https://www.kickstarter.com/projects/bitewinggamesnick/rolling-deep-and-eureka-dice-adventure-roguelike-and-campaign'},
-  {title:'PDX ✈️ The Airport Game',category:'Games',year:2026,funding:'$447,095',goal:'$22,000',backers:'4,670',url:'https://www.kickstarter.com/projects/waterworks/pdx'},
-  {title:'Slay the Spire: The Board Game - Downfall',category:'Games',year:2026,funding:'$7,624,941',goal:'$50,000',backers:'38,134',url:'https://www.kickstarter.com/projects/contentiongames/sts-downfall/'},
-  {title:'Runeway - A Self Discovery Roleplaying Game',category:'Games',year:2026,funding:'€76,893',goal:'€10,000',backers:'1,030',url:'https://www.kickstarter.com/projects/manaprojectstudio/runeway'},
-  {title:'The Cats of New Orleans',category:'Games',year:2026,funding:'CA$152,465',goal:'CA$50,000',backers:'936',url:'https://www.kickstarter.com/projects/283509132/the-cats-of-new-orleans'},
-  {title:'Unearth: Complete Edition',category:'Games',year:2026,funding:'$115,372',goal:'$30,000',backers:'2,005',url:'https://www.kickstarter.com/projects/brotherwise/unearth-10th-anniversary-edition'},
-  {title:'One More Page | A Cozy Card Game of Productivity & Pet Chaos',category:'Games',year:2026,funding:'$95,766',goal:'$3,108',backers:'1,336',url:'https://www.kickstarter.com/projects/worldofmithrasa/one-more-page-a-cozy-card-game-of-productivity-and-pet-chaos'},
-  {title:'Logic & Lore 2nd Edition & Expansion',category:'Games',year:2026,funding:'$107,421',goal:'$9,000',backers:'1,960',url:'https://www.kickstarter.com/projects/weirdgiraffegames/logic-and-lore-2nd-edition'},
+{title:'Tex Murphy: Killing Moon Rising',category:'Games',year:2026,funding:'$482,875',goal:'$50,000',backers:'4,502',url:'https://www.kickstarter.com/projects/texmurphy/tex-murphy-killing-moon-rising',image:'/tex-murphy.jpg'},
+
+{title:'Rolling Deep & Eureka | Dice Adventure Roguelike & Campaign',category:'Games',year:2026,funding:'$720,547',goal:'$15,000',backers:'6,209',url:'https://www.kickstarter.com/projects/bitewinggamesnick/rolling-deep-and-eureka-dice-adventure-roguelike-and-campaign',image:'/rolling-deep-eureka.jpg'},
+
+{title:'PDX ✈️ The Airport Game',category:'Games',year:2026,funding:'$447,095',goal:'$22,000',backers:'4,670',url:'https://www.kickstarter.com/projects/waterworks/pdx'},
+
+{title:'Slay the Spire: The Board Game - Downfall',category:'Games',year:2026,funding:'$7,624,941',goal:'$50,000',backers:'38,134',url:'https://www.kickstarter.com/projects/contentiongames/sts-downfall/',image:'/slay-the-spire-downfall.jpg'},
+
+{title:'Runeway - A Self Discovery Roleplaying Game',category:'Games',year:2026,funding:'€76,893',goal:'€10,000',backers:'1,030',url:'https://www.kickstarter.com/projects/manaprojectstudio/runeway',image:'/runeway.jpg'},
+
+{title:'The Cats of New Orleans',category:'Games',year:2026,funding:'CA$152,465',goal:'CA$50,000',backers:'936',url:'https://www.kickstarter.com/projects/283509132/the-cats-of-new-orleans'},
+
+{title:'Unearth: Complete Edition',category:'Games',year:2026,funding:'$115,372',goal:'$30,000',backers:'2,005',url:'https://www.kickstarter.com/projects/brotherwise/unearth-10th-anniversary-edition'},
+
+{title:'One More Page | A Cozy Card Game of Productivity & Pet Chaos',category:'Games',year:2026,funding:'$95,766',goal:'$3,108',backers:'1,336',url:'https://www.kickstarter.com/projects/worldofmithrasa/one-more-page-a-cozy-card-game-of-productivity-and-pet-chaos'},
+
+{title:'Logic & Lore 2nd Edition & Expansion',category:'Games',year:2026,funding:'$107,421',goal:'$9,000',backers:'1,960',url:'https://www.kickstarter.com/projects/weirdgiraffegames/logic-and-lore-2nd-edition'},
 
   // Publishing
 {title:'Historical Trailblazers: Romance Collection',category:'Publishing',year:2026,funding:'$395,385',goal:'$10,000',backers:'1,497',url:'https://www.kickstarter.com/projects/ahpublishing/historical-trailblazers-romance-collection',image:'https://cdn.backerkit.com/uploads/project/image/69493/optimized_1bf43276e70c692c5b630c269cd6775a_original.png'},
-  {title:'Kenner Wars',category:'Publishing',year:2026,funding:'€183,451',goal:'€30,000',backers:'2,308',url:'https://www.kickstarter.com/projects/pulsebooks/kennerwars'},
-  {title:'Hypothesis Series: Let’s Get Nerdy',category:'Publishing',year:2026,funding:'$172,623',goal:'$25,000',backers:'425',url:'https://www.kickstarter.com/projects/pennyreid/hypothesis-series-lets-get-nerdy'},
-  {title:'Mother of Learning: ARC 1 — Illustrated Deluxe Edition',category:'Publishing',year:2026,funding:'$151,727',goal:'$10,000',backers:'970',url:'https://www.kickstarter.com/projects/wraithmarked/mol1dlx'},
-  {title:'The Odyssey - Special Limited Edition',category:'Publishing',year:2026,funding:'$148,407',goal:'$10,000',backers:'1,359',url:'https://www.kickstarter.com/projects/wraithmarked/odyssey-1'},
-  {title:'Junichiro Jackson (JJ) — Psychological Thriller Manga Series',category:'Publishing',year:2026,funding:'$103,574',goal:'$42,000',backers:'890',url:'https://www.kickstarter.com/projects/teamto/jj'},
-  {title:'Shadows of the Tenebris Court: Collector\'s Edition Romantasy',category:'Publishing',year:2026,funding:'£83,428',goal:'£5,000',backers:'604',url:'https://www.kickstarter.com/projects/claresager/shadows-of-the-tenebris-court-collectors-edition-romantasy'},
+
+{title:'Kenner Wars',category:'Publishing',year:2026,funding:'€183,451',goal:'€30,000',backers:'2,308',url:'https://www.kickstarter.com/projects/pulsebooks/kennerwars',image:'/kenner-wars.jpg'},
+
+{title:'Hypothesis Series: Let’s Get Nerdy',category:'Publishing',year:2026,funding:'$172,623',goal:'$25,000',backers:'425',url:'https://www.kickstarter.com/projects/pennyreid/hypothesis-series-lets-get-nerdy',image:'/hypothesis-series.jpg'},
+
+{title:'Mother of Learning: ARC 1 — Illustrated Deluxe Edition',category:'Publishing',year:2026,funding:'$151,727',goal:'$10,000',backers:'970',url:'https://www.kickstarter.com/projects/wraithmarked/mol1dlx',image:'/mother-of-learning.jpg'},
+
+{title:'The Odyssey - Special Limited Edition',category:'Publishing',year:2026,funding:'$148,407',goal:'$10,000',backers:'1,359',url:'https://www.kickstarter.com/projects/wraithmarked/odyssey-1',image:'/odyssey.jpg'},
+
+{title:'Junichiro Jackson (JJ) — Psychological Thriller Manga Series',category:'Publishing',year:2026,funding:'$103,574',goal:'$42,000',backers:'890',url:'https://www.kickstarter.com/projects/teamto/jj',image:'/junichiro-jackson.jpg'},
+
+{title:'Shadows of the Tenebris Court: Collector\'s Edition Romantasy',category:'Publishing',year:2026,funding:'£83,428',goal:'£5,000',backers:'604',url:'https://www.kickstarter.com/projects/claresager/shadows-of-the-tenebris-court-collectors-edition-romantasy',image:'/shadows-tenebris-court.jpg'},
+
 {title:'The World of Frostpunk: Artbook & Anthology',category:'Publishing',year:2025,funding:'€638,203',goal:'€50,000',backers:'3,807',url:'https://www.kickstarter.com/projects/11bitstudios/frostpunk-anthology-and-frostpunk-2-artbook',image:'https://static.wixstatic.com/media/320167_fe470cf37b894c579e8c1d22d02e480e~mv2.jpg/v1/fill/w_900%2Ch_1125%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/320167_fe470cf37b894c579e8c1d22d02e480e~mv2.jpg'},
-  {title:'PetyPot - AI-Powered Litter-Free Self-Cleaning Cat Toilet',category:'Technology',year:2025,funding:'$650,548',goal:'$10,000',backers:'1,511',url:'https://www.kickstarter.com/projects/petypot/petypot'},
- 
+
+{title:'PetyPot - AI-Powered Litter-Free Self-Cleaning Cat Toilet',category:'Technology',year:2025,funding:'$650,548',goal:'$10,000',backers:'1,511',url:'https://www.kickstarter.com/projects/petypot/petypot',image:'/petypot.jpg'},
+
   // Technology
-{title:'Keychron K3 HE & Keychron K3 Ultra: Slim Wireless Custom Keyboards',category:'Technology',year:2026,funding:'$284,900',goal:'$10,000',backers:'2,044',url:'https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards',image:'https://assets.st-note.com/production/uploads/images/261213791/rectangle_large_type_2_23a11982ad474884a6fc41fa20b61f92.png?width=1280'},  {title:'Ray: Watch Anything. Understand Everything.',category:'Technology',year:2026,funding:'$227,420',goal:'$26,000',backers:'1,117',url:'https://www.kickstarter.com/projects/techspecs/ray-watch-anything-understand-everything'},
-  {title:'Owl3D Shift: The Glasses-Free 3D Portal for Your PC',category:'Technology',year:2026,funding:'$347,611',goal:'$50,000',backers:'795',url:'https://www.kickstarter.com/projects/owl3d/owl3d-shift-the-glasses-free-3d-portal-for-your-pc'},
-  {title:'KeyGo Gen2 Pro: Slim Foldable Keyboard with 4K Touchscreen',category:'Technology',year:2026,funding:'HK$4,965,010',goal:'HK$30,000',backers:'1,770',url:'https://www.kickstarter.com/projects/1794064432/keygo-gen2-ultra-slim-folding-keyboard-with-4k-touch-screen'},
-  {title:'FocusRay - VR FacialTracking Device',category:'Technology',year:2026,funding:'¥18,488,436',goal:'¥4,000,000',backers:'1,306',url:'https://www.kickstarter.com/projects/aoharunext/focusray-vr-facialtracking-device/'},
-  {title:'ZIEA One: World\'s 1st AI Calendar for Planning and Focus',category:'Technology',year:2026,funding:'S$59,369',goal:'S$12,728',backers:'187',url:'https://www.kickstarter.com/projects/ziea/ziea-one-the-first-ai-powered-planning-and-focus-tool'},
-  {title:'energieleser - endlich alle Zähler im Blick',category:'Technology',year:2026,funding:'€32,464',goal:'€10,000',backers:'391',url:'https://www.kickstarter.com/projects/energieleser/energieleser-endlich-alle-zahler-im-blick'},
+{title:'Keychron K3 HE & Keychron K3 Ultra: Slim Wireless Custom Keyboards',category:'Technology',year:2026,funding:'$284,900',goal:'$10,000',backers:'2,044',url:'https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards',image:'https://assets.st-note.com/production/uploads/images/261213791/rectangle_large_type_2_23a11982ad474884a6fc41fa20b61f92.png?width=1280'},
+
+{title:'Ray: Watch Anything. Understand Everything.',category:'Technology',year:2026,funding:'$227,420',goal:'$26,000',backers:'1,117',url:'https://www.kickstarter.com/projects/techspecs/ray-watch-anything-understand-everything',image:'/ray.jpg'},
+
+{title:'Owl3D Shift: The Glasses-Free 3D Portal for Your PC',category:'Technology',year:2026,funding:'$347,611',goal:'$50,000',backers:'795',url:'https://www.kickstarter.com/projects/owl3d/owl3d-shift-the-glasses-free-3d-portal-for-your-pc',image:'/owl3d-shift.jpg'},
+
+{title:'KeyGo Gen2 Pro: Slim Foldable Keyboard with 4K Touchscreen',category:'Technology',year:2026,funding:'HK$4,965,010',goal:'HK$30,000',backers:'1,770',url:'https://www.kickstarter.com/projects/1794064432/keygo-gen2-ultra-slim-folding-keyboard-with-4k-touch-screen',image:'/keygo-gen2-pro.jpg'},
+
+{title:'FocusRay - VR FacialTracking Device',category:'Technology',year:2026,funding:'¥18,488,436',goal:'¥4,000,000',backers:'1,306',url:'https://www.kickstarter.com/projects/aoharunext/focusray-vr-facialtracking-device/',image:'/focusray.jpg'},
+
+{title:'ZIEA One: World\'s 1st AI Calendar for Planning and Focus',category:'Technology',year:2026,funding:'S$59,369',goal:'S$12,728',backers:'187',url:'https://www.kickstarter.com/projects/ziea/ziea-one-the-first-ai-powered-planning-and-focus-tool',image:'/ziea-one.jpg'},
+
+{title:'energieleser - endlich alle Zähler im Blick',category:'Technology',year:2026,funding:'€32,464',goal:'€10,000',backers:'391',url:'https://www.kickstarter.com/projects/energieleser/energieleser-endlich-alle-zahler-im-blick',image:'/energieleser.jpg'},
+
+
+  // Publishing (1)
+{title:'The Torch that Ignites the Stars Illustrated Deluxe Edition',category:'Publishing',year:2026,funding:'$123,033',goal:'$10,000',backers:'795',url:'https://www.kickstarter.com/projects/wxp/aa3',image:'/torch-ignites-stars.jpg'},
+
+  // Technology (2)
+{title:'VoxMeta H1 Pro: Metrology-Grade 3D Scanner',category:'Technology',year:2026,funding:'HK$1,416,498',goal:'HK$117,640',backers:'91',url:'https://www.kickstarter.com/projects/voxmeta/h1-pro-3d-scanner',image:'/voxmeta-h1-pro.jpg'},
+
+{title:'Jetro: Keep Freshness Longer',category:'Technology',year:2026,funding:'HK$698,121',goal:'HK$39,000',backers:'1,317',url:'https://www.kickstarter.com/projects/ionizo/jetro-keep-freshness-longer/',image:'/jetro.jpg'},
+];
 
 export const categories = ['Art','Comics','Design','Fashion','Film & Video','Games','Publishing','Technology'] as const;
