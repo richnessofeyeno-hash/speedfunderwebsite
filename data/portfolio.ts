@@ -34,13 +34,26 @@ export const portfolio: PortfolioItem[] = [
 {title:'The Bones of Becoming Oracle Deck: Second Edition',category:'Art',year:2026,funding:'$7,096',goal:'$3,800',backers:'123',url:'https://www.kickstarter.com/projects/bonesofbecoming/the-bones-of-becoming-oracle-deck-second-edition',image:'/bones-of-becoming.jpg'},
 
   // Comics
-{title:'James S.A. Corey Returns to THE EXPANSE in A LITTLE DEATH',category:'Comics',year:2025,funding:'$897,653',goal:'$50,000',backers:'8,173',url:'https://www.kickstarter.com/projects/boom-studios/james-sa-corey-returns-to-the-expanse-in-a-little-death',image:'https://images.cgames.de/images/gamestar/290/the-expanse-a-little-death_6351238.jpg'},  {title:'Witches of Oz #1-4: THE WICCA COVEN!',category:'Comics',year:2026,funding:'$55,954',goal:'$22,000',backers:'1,285',url:'https://www.kickstarter.com/projects/comicuno/woz4/'},
-  {title:'Submachine | Comic Book',category:'Comics',year:2026,funding:'€82,490',goal:'€20,000',backers:'939',url:'https://www.kickstarter.com/projects/mateuszskutnik/submachine-comic-book'},
-  {title:'SUGAR POP: The Fly on Windscreen pt. 2',category:'Comics',year:2026,funding:'$68,866',goal:'$5,000',backers:'833',url:'https://www.kickstarter.com/projects/danmendoza/sugar-pop-the-fly-on-windscreen-pt-2'},
-{title:'Fathom Timeline Omnibus: Volume 1',category:'Comics',year:2026,funding:'$189,258',goal:'$50,000',backers:'1,179',url:'https://www.kickstarter.com/projects/aspencomics/fathom-timeline-omnibus-volume-1',image:'https://pbs.twimg.com/media/HBiQMhXagAA3XyU.jpg'},  {title:'FREQ: Volume #1',category:'Comics',year:2026,funding:'€35,937',goal:'€20,000',backers:'583',url:'https://www.kickstarter.com/projects/freqmanga/freq-volume-1'},
-  {title:'The Mandawhorian',category:'Comics',year:2026,funding:'$10,564',goal:'$500',backers:'260',url:'https://www.kickstarter.com/projects/divinity--comics/the-mandawhorian'},
-  {title:'Devil\'s Due Presents: Mercy Sparx - 25th Anniversary Special',category:'Comics',year:2026,funding:'$12,549',goal:'$5,555',backers:'223',url:'https://www.kickstarter.com/projects/joshcblaylock/devils-due-presents-mercy-sparx'},
+{title:'James S.A. Corey Returns to THE EXPANSE in A LITTLE DEATH',category:'Comics',year:2025,funding:'$897,653',goal:'$50,000',backers:'8,173',url:'https://www.kickstarter.com/projects/boom-studios/james-sa-corey-returns-to-the-expanse-in-a-little-death',image:'https://images.cgames.de/images/gamestar/290/the-expanse-a-little-death_6351238.jpg'},
 
+{title:'Witches of Oz #1-4: THE WICCA COVEN!',category:'Comics',year:2026,funding:'$55,954',goal:'$22,000',backers:'1,285',url:'https://www.kickstarter.com/projects/comicuno/woz4/',image:'/witches-of-oz.jpg'},
+
+{title:'Submachine | Comic Book',category:'Comics',year:2026,funding:'€82,490',goal:'€20,000',backers:'939',url:'https://www.kickstarter.com/projects/mateuszskutnik/submachine-comic-book',image:'/submachine.jpg'},
+
+{title:'SUGAR POP: The Fly on Windscreen pt. 2',category:'Comics',year:2026,funding:'$68,866',goal:'$5,000',backers:'833',url:'https://www.kickstarter.com/projects/danmendoza/sugar-pop-the-fly-on-windscreen-pt-2',image:'/sugar-pop.jpg'},
+
+{title:'Fathom Timeline Omnibus: Volume 1',category:'Comics',year:2026,funding:'$189,258',goal:'$50,000',backers:'1,179',url:'https://www.kickstarter.com/projects/aspencomics/fathom-timeline-omnibus-volume-1',image:'https://pbs.twimg.com/media/HBiQMhXagAA3XyU.jpg'},
+
+{title:'FREQ: Volume #1',category:'Comics',year:2026,funding:'€35,937',goal:'€20,000',backers:'583',url:'https://www.kickstarter.com/projects/freqmanga/freq-volume-1',image:'/freq-volume-1.jpg'},
+
+{title:'The Mandawhorian',category:'Comics',year:2026,funding:'$10,564',goal:'$500',backers:'260',url:'https://www.kickstarter.com/projects/divinity--comics/the-mandawhorian',image:'/mandawhorian.jpg'},
+
+{title:'Devil\'s Due Presents: Mercy Sparx - 25th Anniversary Special',category:'Comics',year:2026,funding:'$12,549',goal:'$5,555',backers:'223',url:'https://www.kickstarter.com/projects/joshcblaylock/devils-due-presents-mercy-sparx',image:'/mercy-sparx.jpg'},
+
+{title:'Keres: Blood & Shadow One-Shot',category:'Comics',year:2026,funding:'$50,884',goal:'$4,900',backers:'554',url:'https://www.kickstarter.com/projects/zenescopecomics/keres-blood-and-shadow-one-shot',image:'/keres-blood-shadow.jpg'},
+
+{title:'BURLAP VOL. 1 GRAPHIC NOVEL',category:'Comics',year:2026,funding:'$5,391',goal:'$5,000',backers:'104',url:'https://www.kickstarter.com/projects/burlapcomics/burlap-vol-1-graphic-novel',image:'/burlap-vol-1.jpg'},
+  
   // Design
 {title:'Mighty Morphin Power Rangers Combinable Dragonzord',category:'Design',year:2026,funding:'$782,530',goal:'$400,000',backers:'7,883',url:'https://www.kickstarter.com/projects/playmatestoys/mighty-morphin-power-rangers-combinable-dragonzord',image:'https://playmatestoys.com/wp-content/uploads/2026/08/MMPR_Dragonzord_SE_1c.png'},
   {title:'D1 Milano x Peter Tarka: The Impossible Watch',category:'Design',year:2026,funding:'$415,041',goal:'$15,000',backers:'943',url:'https://www.kickstarter.com/projects/840192188/d1-milano-x-peter-tarka-the-impossible-watch',image:'https://wornandwound.com/library/uploads/2026/06/D1-Milano-x-Peter-Tarka-58.jpg'},  {title:'Renote Snap: World’s 1st Metal Notebook Wallet',category:'Design',year:2026,funding:'£68,119',goal:'£1,127',backers:'847',url:'https://www.kickstarter.com/projects/renote-snap/renote-snap-worlds-first-7-in-1-notebook-wallet'},
@@ -86,11 +99,6 @@ export const portfolio: PortfolioItem[] = [
   {title:'FocusRay - VR FacialTracking Device',category:'Technology',year:2026,funding:'¥18,488,436',goal:'¥4,000,000',backers:'1,306',url:'https://www.kickstarter.com/projects/aoharunext/focusray-vr-facialtracking-device/'},
   {title:'ZIEA One: World\'s 1st AI Calendar for Planning and Focus',category:'Technology',year:2026,funding:'S$59,369',goal:'S$12,728',backers:'187',url:'https://www.kickstarter.com/projects/ziea/ziea-one-the-first-ai-powered-planning-and-focus-tool'},
   {title:'energieleser - endlich alle Zähler im Blick',category:'Technology',year:2026,funding:'€32,464',goal:'€10,000',backers:'391',url:'https://www.kickstarter.com/projects/energieleser/energieleser-endlich-alle-zahler-im-blick'},
-
-
-  // Comics (2)
-  {title:'Keres: Blood & Shadow One-Shot',category:'Comics',year:2026,funding:'$50,884',goal:'$4,900',backers:'554',url:'https://www.kickstarter.com/projects/zenescopecomics/keres-blood-and-shadow-one-shot'},
-  {title:'BURLAP VOL. 1 GRAPHIC NOVEL',category:'Comics',year:2026,funding:'$5,391',goal:'$5,000',backers:'104',url:'https://www.kickstarter.com/projects/burlapcomics/burlap-vol-1-graphic-novel'},
 
   // Design (6)
   {title:'Cinomadist Motion: A Backpack for Work, Transit, and Travel',category:'Design',year:2026,funding:'HK$827,686',goal:'HK$10,000',backers:'663',url:'https://www.kickstarter.com/projects/cinomadistbackpack/cinomadist-motion-a-backpack-for-work-transit-and-travel/'},
