@@ -14,7 +14,22 @@ export default function Page(){
       <div className="filters">{categories.map(c=><button key={c} className={`filter ${category===c?'active':''}`} onClick={()=>setCategory(c)}>{c}</button>)}</div>
       <div className="portfolio-grid">
         {filtered.map(p=><a className="card portfolio-card" key={p.title} href={p.url} target="_blank" rel="noreferrer">
-          <div className="portfolio-image"><div className="portfolio-art"><span>{p.category} · {p.year}</span><strong>SF</strong></div></div>
+<div className="portfolio-image">
+  {p.image ? (
+    <img
+      src={p.image}
+      alt={p.title}
+      referrerPolicy="no-referrer"
+      loading="lazy"
+      decoding="async"
+    />
+  ) : (
+    <div className="portfolio-art">
+      <span>{p.category} · {p.year}</span>
+      <strong>SF</strong>
+    </div>
+  )}
+</div>
           <div className="portfolio-body"><h3>{p.title}</h3><div className="metric"><strong>{p.funding}</strong><small>FUNDED</small></div><div className="portfolio-meta">{p.backers ? `${p.backers} backers` : 'Campaign record'}</div><span className="text-link">VIEW KICKSTARTER CAMPAIGN ↗</span></div>
         </a>)}
       </div>
