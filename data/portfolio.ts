@@ -116,20 +116,20 @@ export const portfolio: PortfolioItem[] = [
 
 {title:'Rolling Deep & Eureka | Dice Adventure Roguelike & Campaign',category:'Games',year:2026,funding:'$720,547',goal:'$15,000',backers:'6,209',url:'https://www.kickstarter.com/projects/bitewinggamesnick/rolling-deep-and-eureka-dice-adventure-roguelike-and-campaign',image:'/rolling-deep-eureka.jpg'},
 
-{title:'PDX ✈️ The Airport Game',category:'Games',year:2026,funding:'$447,095',goal:'$22,000',backers:'4,670',url:'https://www.kickstarter.com/projects/waterworks/pdx'},
+{title:'PDX ✈️ The Airport Game',category:'Games',year:2026,funding:'$447,095',goal:'$22,000',backers:'4,670',url:'https://www.kickstarter.com/projects/waterworks/pdx',image:'/pdx-airport-game.jpg'},
 
 {title:'Slay the Spire: The Board Game - Downfall',category:'Games',year:2026,funding:'$7,624,941',goal:'$50,000',backers:'38,134',url:'https://www.kickstarter.com/projects/contentiongames/sts-downfall/',image:'/slay-the-spire-downfall.jpg'},
 
 {title:'Runeway - A Self Discovery Roleplaying Game',category:'Games',year:2026,funding:'€76,893',goal:'€10,000',backers:'1,030',url:'https://www.kickstarter.com/projects/manaprojectstudio/runeway',image:'/runeway.jpg'},
 
-{title:'The Cats of New Orleans',category:'Games',year:2026,funding:'CA$152,465',goal:'CA$50,000',backers:'936',url:'https://www.kickstarter.com/projects/283509132/the-cats-of-new-orleans'},
+{title:'The Cats of New Orleans',category:'Games',year:2026,funding:'CA$152,465',goal:'CA$50,000',backers:'936',url:'https://www.kickstarter.com/projects/283509132/the-cats-of-new-orleans',image:'/cats-of-new-orleans.jpg'},
 
-{title:'Unearth: Complete Edition',category:'Games',year:2026,funding:'$115,372',goal:'$30,000',backers:'2,005',url:'https://www.kickstarter.com/projects/brotherwise/unearth-10th-anniversary-edition'},
+{title:'Unearth: Complete Edition',category:'Games',year:2026,funding:'$115,372',goal:'$30,000',backers:'2,005',url:'https://www.kickstarter.com/projects/brotherwise/unearth-10th-anniversary-edition',image:'/unearth-complete-edition.jpg'},
 
-{title:'One More Page | A Cozy Card Game of Productivity & Pet Chaos',category:'Games',year:2026,funding:'$95,766',goal:'$3,108',backers:'1,336',url:'https://www.kickstarter.com/projects/worldofmithrasa/one-more-page-a-cozy-card-game-of-productivity-and-pet-chaos'},
+{title:'One More Page | A Cozy Card Game of Productivity & Pet Chaos',category:'Games',year:2026,funding:'$95,766',goal:'$3,108',backers:'1,336',url:'https://www.kickstarter.com/projects/worldofmithrasa/one-more-page-a-cozy-card-game-of-productivity-and-pet-chaos',image:'/one-more-page.jpg'},
 
-{title:'Logic & Lore 2nd Edition & Expansion',category:'Games',year:2026,funding:'$107,421',goal:'$9,000',backers:'1,960',url:'https://www.kickstarter.com/projects/weirdgiraffegames/logic-and-lore-2nd-edition'},
-
+{title:'Logic & Lore 2nd Edition & Expansion',category:'Games',year:2026,funding:'$107,421',goal:'$9,000',backers:'1,960',url:'https://www.kickstarter.com/projects/weirdgiraffegames/logic-and-lore-2nd-edition',image:'/logic-and-lore-2nd-edition.jpg'},
+  
   // Publishing
 {title:'Historical Trailblazers: Romance Collection',category:'Publishing',year:2026,funding:'$395,385',goal:'$10,000',backers:'1,497',url:'https://www.kickstarter.com/projects/ahpublishing/historical-trailblazers-romance-collection',image:'https://cdn.backerkit.com/uploads/project/image/69493/optimized_1bf43276e70c692c5b630c269cd6775a_original.png'},
 
