@@ -62,8 +62,12 @@ export async function POST(request: Request) {
     `;
 
 const creatorEmail = `
-  <div style="font-family: Arial, Helvetica, sans-serif; color: #222; line-height: 1.6;">
-    <h2 style="font-size: 24px; margin-bottom: 20px;">
+  <div style="font-family: Arial, Helvetica, sans-serif; color: #222; line-height: 1.5;">
+
+    <h2 style="
+      font-size: 23px;
+      margin: 0 0 18px 0;
+    ">
       Thank You! Your Project Request Has Been Received.
     </h2>
 
@@ -84,122 +88,147 @@ const creatorEmail = `
       about your campaign.
     </p>
 
-    <p style="margin-bottom: 12px;">
+    <p style="margin: 0 0 10px 0;">
       Best regards,
     </p>
 
+    <!-- SPEEDFUNDERS SIGNATURE -->
     <table
       cellpadding="0"
       cellspacing="0"
       border="0"
       width="100%"
-      style="max-width: 700px; background-color: #00150f; color: #f5f2e8;"
+      style="
+        max-width: 700px;
+        background-color: #00150f;
+        color: #f5f2e8;
+      "
     >
       <tr>
-        <td style="padding: 28px 30px 20px 30px;">
+        <td style="padding: 20px 24px 22px 24px;">
 
+          <!-- LOGO + BRAND + TAGLINE -->
           <table cellpadding="0" cellspacing="0" border="0">
             <tr>
-              <td style="vertical-align: middle; padding-right: 22px;">
+
+              <td style="
+                vertical-align: middle;
+                padding-right: 16px;
+              ">
                 <img
                   src="https://raw.githubusercontent.com/richnessofeyeno-hash/speedfunderwebsite/main/public/logo-circle.png"
                   alt="SpeedFunders"
-                  width="115"
-                  style="display: block; border: 0;"
+                  width="78"
+                  style="
+                    display: block;
+                    border: 0;
+                    width: 78px;
+                    height: auto;
+                  "
                 />
               </td>
 
               <td style="vertical-align: middle;">
+
                 <div style="
-                  font-size: 30px;
+                  font-size: 25px;
                   font-weight: 700;
-                  letter-spacing: 3px;
+                  letter-spacing: 2.5px;
                   color: #f5f2e8;
-                  line-height: 1.2;
+                  line-height: 1.1;
                 ">
                   SPEEDFUNDERS
                 </div>
+
+                <!-- TAGLINE -->
+                <div style="
+                  margin-top: 7px;
+                  font-size: 12px;
+                  font-weight: 700;
+                  letter-spacing: 1.5px;
+                  color: #b8c9bd;
+                  line-height: 1.2;
+                ">
+                  YOUR FASTEST FUNDING PARTNERS
+                </div>
+
               </td>
+
             </tr>
           </table>
 
-          <div style="
-            margin-top: 30px;
-            font-size: 20px;
-            font-weight: 700;
-            letter-spacing: 2px;
-            color: #f5f2e8;
-          ">
-            YOUR FASTEST FUNDING PARTNERS
-          </div>
-
-          <div style="
-            margin-top: 28px;
-            font-size: 17px;
-            line-height: 1.7;
-            color: #d8ddd9;
-          ">
-            447 Broadway, 2nd Floor<br />
-            New York, NY 10013, United States
-          </div>
-
+          <!-- SOCIAL MEDIA LINKS -->
           <table
             cellpadding="0"
             cellspacing="0"
             border="0"
-            style="margin-top: 28px;"
+            style="margin-top: 16px;"
           >
             <tr>
 
-              <td style="padding-right: 28px;">
+              <!-- FACEBOOK -->
+              <td style="padding-right: 22px;">
                 <a
                   href="https://www.facebook.com/speedfunders"
-                  style="text-decoration: none; color: #f5f2e8;"
+                  style="
+                    text-decoration: none;
+                    color: #f5f2e8;
+                    font-size: 14px;
+                  "
                 >
                   <span style="
-                    font-size: 25px;
+                    font-size: 20px;
                     font-weight: bold;
                     vertical-align: middle;
                   ">f</span>
+
                   <span style="
-                    font-size: 17px;
-                    margin-left: 8px;
+                    margin-left: 6px;
                     vertical-align: middle;
                   ">Facebook</span>
                 </a>
               </td>
 
-              <td style="padding-right: 28px;">
+              <!-- INSTAGRAM -->
+              <td style="padding-right: 22px;">
                 <a
                   href="https://www.instagram.com/speedfunders"
-                  style="text-decoration: none; color: #f5f2e8;"
+                  style="
+                    text-decoration: none;
+                    color: #f5f2e8;
+                    font-size: 14px;
+                  "
                 >
                   <span style="
-                    font-size: 23px;
+                    font-size: 19px;
                     font-weight: bold;
                     vertical-align: middle;
                   ">◎</span>
+
                   <span style="
-                    font-size: 17px;
-                    margin-left: 8px;
+                    margin-left: 6px;
                     vertical-align: middle;
                   ">Instagram</span>
                 </a>
               </td>
 
+              <!-- X -->
               <td>
                 <a
                   href="https://twitter.com/speedfunders"
-                  style="text-decoration: none; color: #f5f2e8;"
+                  style="
+                    text-decoration: none;
+                    color: #f5f2e8;
+                    font-size: 14px;
+                  "
                 >
                   <span style="
-                    font-size: 23px;
-                    font-weight: bold;
+                    font-size: 19px;
                     vertical-align: middle;
                   ">𝕏</span>
+
                   <span style="
-                    font-size: 17px;
-                    margin-left: 8px;
+                    margin-left: 6px;
                     vertical-align: middle;
                   ">X</span>
                 </a>
@@ -208,9 +237,22 @@ const creatorEmail = `
             </tr>
           </table>
 
+          <!-- ADDRESS -->
+          <div style="
+            margin-top: 14px;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+            color: #d8ddd9;
+            line-height: 1.4;
+          ">
+            447 Broadway, 2nd Floor&nbsp;&nbsp;•&nbsp;&nbsp;New York, NY 10013, United States
+          </div>
+
         </td>
       </tr>
     </table>
+
   </div>
 `;
 
