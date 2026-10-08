@@ -152,13 +152,17 @@ export default function Home() {
     target="_blank"
     rel="noreferrer"
   >
-    <div
-      className="featured-campaign-art"
-      style={{
-        backgroundImage: item.image ? `url("${item.image}")` : undefined,
-      }}
-      aria-hidden="true"
+<div className="featured-campaign-art">
+  {item.image ? (
+    <img
+      src={item.image}
+      alt=""
+      referrerPolicy="no-referrer"
+      loading="eager"
+      decoding="async"
     />
+  ) : null}
+</div>
 
     <div className="featured-campaign-copy">
       <div className="eyebrow">{item.category} · {item.year}</div>
