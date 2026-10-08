@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { Header, Footer } from './_shared';
+import { portfolio } from '../data/portfolio';
 
 const services = [
   ['01', 'Campaign Page Setup & Optimization'],
@@ -26,132 +27,11 @@ const featuredTitles = [
   'Keychron K3 HE & Keychron K3 Ultra: Slim Wireless Custom Keyboards',
 ];
 
-const featuredExtras = {
-  'Historical Trailblazers: Romance Collection': {
-    title: 'Historical Trailblazers: Romance Collection',
-    category: 'Publishing' as const,
-    year: 2026,
-    funding: '$395,385',
-    goal: '$10,000',
-    backers: '1,497',
-    url: 'https://www.kickstarter.com/projects/ahpublishing/historical-trailblazers-romance-collection',
-    image:
-      'https://i.kickstarter.com/assets/053/761/868/1bf43276e70c692c5b630c269cd6775a_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&sig=W8vQaStRv6%2B9QzEeXmVgkVaqfhym24LjnwGglgTgYyE%3D&v=1779033738&width=1552',
-  },
-
-  'The Marvel Art of DAN DOS SANTOS - A Deluxe Art Book & More!': {
-    title: 'The Marvel Art of DAN DOS SANTOS - A Deluxe Art Book & More!',
-    category: 'Art' as const,
-    year: 2026,
-    funding: '$126,900',
-    goal: '$10,000',
-    backers: '707',
-    url: 'https://www.kickstarter.com/projects/cloverpressart/the-marvel-art-of-dan-dos-santos-a-deluxe-art-book-and-more',
-    image:
-      'https://i.kickstarter.com/assets/052/157/792/35e3db6d655121c0a5b796284922f1fb_original.jpg?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&sig=YuGQuVACMpBXXkP0Zv5LIggRxpwDwK0ZNRX3vDRvD88%3D&v=1767897014&width=1552',
-  },
-
-  'James S.A. Corey Returns to THE EXPANSE in A LITTLE DEATH': {
-    title: 'James S.A. Corey Returns to THE EXPANSE in A LITTLE DEATH',
-    category: 'Comics' as const,
-    year: 2025,
-    funding: '$897,653',
-    goal: '$50,000',
-    backers: '8,173',
-    url: 'https://www.kickstarter.com/projects/boom-studios/james-sa-corey-returns-to-the-expanse-in-a-little-death',
-    image:
-      'https://i.kickstarter.com/assets/048/774/067/2d7a86d8dd8abd0c97de97683088a0ea_original.jpg?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&sig=lbSlLErsM95%2Ft5YppFrWDsGSJjFTa8JczEIP6LVCDuE%3D&v=1743697763&width=1552',
-  },
-
-  'Fathom Timeline Omnibus: Volume 1': {
-    title: 'Fathom Timeline Omnibus: Volume 1',
-    category: 'Comics' as const,
-    year: 2026,
-    funding: '$189,258',
-    goal: '$50,000',
-    backers: '1,179',
-    url: 'https://www.kickstarter.com/projects/aspencomics/fathom-timeline-omnibus-volume-1',
-    image:
-      'https://i.kickstarter.com/assets/052/934/323/fab6df8515ca3ce407a2de961b6fba94_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&sig=EUymoMvfxpRpwCvMYR1ekUWGC2TdgXbofnLiOfjcDGQ%3D&v=1773366321&width=1552',
-  },
-
-  'Mighty Morphin Power Rangers Combinable Dragonzord': {
-    title: 'Mighty Morphin Power Rangers Combinable Dragonzord',
-    category: 'Design' as const,
-    year: 2026,
-    funding: '$782,530',
-    goal: '$400,000',
-    backers: '7,883',
-    url: 'https://www.kickstarter.com/projects/playmatestoys/mighty-morphin-power-rangers-combinable-dragonzord',
-    image:
-      'https://i.kickstarter.com/assets/054/790/343/61d45342b0778d71101371f73087a2a9_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&sig=yUJ8lC4Y1FLhrxgn4lnCnZ4bOrz0W333L6OFBonmnOI%3D&v=1786998534&width=1552',
-  },
-
-  'D1 Milano x Peter Tarka: The Impossible Watch': {
-    title: 'D1 Milano x Peter Tarka: The Impossible Watch',
-    category: 'Design' as const,
-    year: 2026,
-    funding: '$415,041',
-    goal: '$15,000',
-    backers: '943',
-    url: 'https://www.kickstarter.com/projects/840192188/d1-milano-x-peter-tarka-the-impossible-watch',
-    image:
-      'https://i.kickstarter.com/assets/054/083/249/763a3fb74652e0024f1e0c63534aef3a_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&sig=b6XlLloc42ZV5a%2F%2FdeFMgVdr0s3fsoDc6V98HX5Yk08%3D&v=1781255143&width=1552',
-  },
-
-  'noRecognition : AI Adversarial Clothing': {
-    title: 'noRecognition : AI Adversarial Clothing',
-    category: 'Fashion' as const,
-    year: 2026,
-    funding: '$204,288',
-    goal: '$5,000',
-    backers: '1,213',
-    url: 'https://www.kickstarter.com/projects/norecognition/norecognition-ai-adversarial-clothing',
-    image:
-      'https://i.kickstarter.com/assets/054/634/091/26da1568be5925382c6655a6eea8798d_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&sig=I1HD71mJGDDNQGre2bSUGsYZhQzeEHgttmAmAaQTeO8%3D&v=1785716130&width=1552',
-  },
-
-  'Tex Murphy: Killing Moon Rising': {
-    title: 'Tex Murphy: Killing Moon Rising',
-    category: 'Games' as const,
-    year: 2026,
-    funding: '$486,482',
-    goal: '$50,000',
-    backers: '4,533',
-    url: 'https://www.kickstarter.com/projects/texmurphy/tex-murphy-killing-moon-rising',
-    image: '/tex-murphy.jpg',
-  },
-
-  'The World of Frostpunk: Artbook & Anthology': {
-    title: 'The World of Frostpunk: Artbook & Anthology',
-    category: 'Publishing' as const,
-    year: 2025,
-    funding: '€638,203',
-    goal: '€50,000',
-    backers: '3,807',
-    url: 'https://www.kickstarter.com/projects/11bitstudios/frostpunk-anthology-and-frostpunk-2-artbook',
-    image:
-      'https://i.kickstarter.com/assets/048/956/304/baf50941a95a8186dbbf50f0230d8f20_original.jpg?anim=false&fit=scale-down&origin=ugc&q=92&sig=tnyBUd5%2BBeVQdT81jyX5vUv%2FAx6LpuVGq1%2FyHpn501A%3D&v=1744990682&width=700',
-  },
-
-  'Keychron K3 HE & Keychron K3 Ultra: Slim Wireless Custom Keyboards': {
-    title: 'Keychron K3 HE & Keychron K3 Ultra: Slim Wireless Custom Keyboards',
-    category: 'Technology' as const,
-    year: 2026,
-    funding: '$284,900',
-    goal: '$10,000',
-    backers: '2,044',
-    url: 'https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards',
-    image:
-      'https://i.kickstarter.com/assets/052/769/511/d506c87223fe2cf7a275d4093617075d_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&sig=ElTl5Okbt6CVmGPzcSxipnvZksJnsqLl428AQmCg4rI%3D&v=1772264145&width=1552',
-  },
-};
-
 export default function Home() {
   const featured = useMemo(
     () =>
       featuredTitles
-        .map(t => featuredExtras[t as keyof typeof featuredExtras])
+        .map(t => portfolio.find(p => p.title === t))
         .filter(Boolean),
     []
   );
