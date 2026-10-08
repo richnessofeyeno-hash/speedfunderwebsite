@@ -62,7 +62,11 @@ export async function POST(request: Request) {
     `;
 
 const creatorEmail = `
-  <div style="font-family: Arial, Helvetica, sans-serif; color: #222; line-height: 1.5;">
+  <div style="
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    line-height: 1.5;
+  ">
 
     <h2 style="
       font-size: 23px;
@@ -99,52 +103,61 @@ const creatorEmail = `
       border="0"
       width="100%"
       style="
+        width: 100%;
         max-width: 700px;
         background-color: #00150f;
         color: #f5f2e8;
       "
     >
       <tr>
-        <td style="padding: 18px 20px 16px 20px;">
+        <td style="
+          padding: 16px 14px 14px 14px;
+        ">
 
-          <!-- LOGO + BRAND/SOCIAL SECTION -->
+          <!-- LOGO + BRAND + SOCIAL -->
           <table
             cellpadding="0"
             cellspacing="0"
             border="0"
             width="100%"
+            style="width: 100%;"
           >
             <tr>
 
               <!-- LOGO -->
               <td style="
-                width: 76px;
+                width: 70px;
+                min-width: 70px;
                 vertical-align: top;
-                padding-right: 14px;
+                padding-right: 12px;
               ">
                 <img
                   src="https://raw.githubusercontent.com/richnessofeyeno-hash/speedfunderwebsite/main/public/logo-circle.png"
                   alt="SpeedFunders"
-                  width="72"
+                  width="66"
                   style="
                     display: block;
-                    width: 72px;
+                    width: 66px;
                     height: auto;
                     border: 0;
                   "
                 />
               </td>
 
-              <!-- BRAND + TAGLINE + SOCIAL MEDIA -->
-              <td style="vertical-align: top;">
+              <!-- BRAND / TAGLINE / SOCIAL -->
+              <td style="
+                vertical-align: top;
+                width: auto;
+              ">
 
                 <!-- BRAND -->
                 <div style="
-                  font-size: 23px;
+                  font-size: 22px;
                   font-weight: 700;
-                  letter-spacing: 2.2px;
+                  letter-spacing: 2px;
                   color: #f5f2e8;
-                  line-height: 1.1;
+                  line-height: 1.05;
+                  white-space: nowrap;
                 ">
                   SPEEDFUNDERS
                 </div>
@@ -154,9 +167,10 @@ const creatorEmail = `
                   margin-top: 5px;
                   font-size: 11px;
                   font-weight: 700;
-                  letter-spacing: 1.2px;
+                  letter-spacing: 1.1px;
                   color: #b8c9bd;
-                  line-height: 1.2;
+                  line-height: 1.15;
+                  white-space: nowrap;
                 ">
                   YOUR FASTEST FUNDING PARTNERS
                 </div>
@@ -166,7 +180,9 @@ const creatorEmail = `
                   cellpadding="0"
                   cellspacing="0"
                   border="0"
-                  style="margin-top: 11px;"
+                  style="
+                    margin-top: 10px;
+                  "
                 >
                   <tr>
 
@@ -177,16 +193,17 @@ const creatorEmail = `
                         style="
                           text-decoration: none;
                           color: #f5f2e8;
-                          font-size: 13px;
+                          font-size: 12px;
+                          white-space: nowrap;
                         "
                       >
                         <span style="
-                          font-size: 19px;
+                          font-size: 18px;
                           font-weight: bold;
                           vertical-align: middle;
                         ">f</span>
                         <span style="
-                          margin-left: 5px;
+                          margin-left: 4px;
                           vertical-align: middle;
                         ">Facebook</span>
                       </a>
@@ -199,16 +216,17 @@ const creatorEmail = `
                         style="
                           text-decoration: none;
                           color: #f5f2e8;
-                          font-size: 13px;
+                          font-size: 12px;
+                          white-space: nowrap;
                         "
                       >
                         <span style="
-                          font-size: 18px;
+                          font-size: 17px;
                           font-weight: bold;
                           vertical-align: middle;
                         ">◎</span>
                         <span style="
-                          margin-left: 5px;
+                          margin-left: 4px;
                           vertical-align: middle;
                         ">Instagram</span>
                       </a>
@@ -221,15 +239,16 @@ const creatorEmail = `
                         style="
                           text-decoration: none;
                           color: #f5f2e8;
-                          font-size: 13px;
+                          font-size: 12px;
+                          white-space: nowrap;
                         "
                       >
                         <span style="
-                          font-size: 18px;
+                          font-size: 17px;
                           vertical-align: middle;
                         ">𝕏</span>
                         <span style="
-                          margin-left: 5px;
+                          margin-left: 4px;
                           vertical-align: middle;
                         ">X</span>
                       </a>
@@ -243,18 +262,18 @@ const creatorEmail = `
             </tr>
           </table>
 
-          <!-- ADDRESS UNDER LOGO -->
+          <!-- ADDRESS -->
           <div style="
             margin-top: 12px;
             width: 100%;
-            font-size: 10.5px;
+            font-size: 9px;
             font-weight: 600;
             letter-spacing: 0;
             color: #d8ddd9;
-            line-height: 1.3;
+            line-height: 1.2;
             white-space: nowrap;
           ">
-            447 Broadway, 2nd Floor&nbsp;&nbsp;•&nbsp;&nbsp;New York, NY 10013, United States
+            447 Broadway, 2nd Floor&nbsp;•&nbsp;New York, NY 10013, United States
           </div>
 
         </td>
