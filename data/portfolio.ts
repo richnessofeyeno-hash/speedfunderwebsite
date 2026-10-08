@@ -72,10 +72,24 @@ export const portfolio: PortfolioItem[] = [
 {title:'Artella | The Modular Carry System',category:'Design',year:2026,funding:'€12,893',goal:'€5,120',backers:'36',url:'https://www.kickstarter.com/projects/artsyna/artella-a-modular-carry-system-for-work-gym-and-travel',image:'/artella.jpg'},
   
   // Fashion
-{title:'noRecognition : AI Adversarial Clothing',category:'Fashion',year:2026,funding:'$204,288',goal:'$5,000',backers:'1,213',url:'https://www.kickstarter.com/projects/norecognition/norecognition-ai-adversarial-clothing',image:'https://s1.cdn.autoevolution.com/images/news/gallery/man-finds-creative-solution-to-surveillance-camera-tracking-rendering-flock-cameras-useless_1.jpg'},  {title:'The Unbound Performance Quarter Zip & Overshirt',category:'Fashion',year:2026,funding:'$85,484',goal:'$10,000',backers:'420',url:'https://www.kickstarter.com/projects/woodiesdenim/the-unbound-performance-quarter-zip-and-overshirt'},
-  {title:'LAY YOUR BONES - An Ode to Natural Fibre',category:'Fashion',year:2026,funding:'AU$31,000',goal:'AU$30,000',backers:'46',url:'https://www.kickstarter.com/projects/layyourbones/lay-your-bones-an-ode-to-natural-fibre'},
-  {title:'Ember Bison: Unexpectedly Soft. Deeply Durable Apparel',category:'Fashion',year:2026,funding:'$5,217',goal:'$5,000',backers:'12',url:'https://www.kickstarter.com/projects/1925399328/ember-bison-unexpectedly-soft-deeply-durable-apparel'},
+{title:'The Unbound Performance Quarter Zip & Overshirt',category:'Fashion',year:2026,funding:'$85,484',goal:'$10,000',backers:'420',url:'https://www.kickstarter.com/projects/woodiesdenim/the-unbound-performance-quarter-zip-and-overshirt',image:'/unbound-performance.jpg'},
 
+{title:'LAY YOUR BONES - An Ode to Natural Fibre',category:'Fashion',year:2026,funding:'AU$31,000',goal:'AU$30,000',backers:'46',url:'https://www.kickstarter.com/projects/layyourbones/lay-your-bones-an-ode-to-natural-fibre',image:'/lay-your-bones.jpg'},
+
+{title:'Ember Bison: Unexpectedly Soft. Deeply Durable Apparel',category:'Fashion',year:2026,funding:'$5,217',goal:'$5,000',backers:'12',url:'https://www.kickstarter.com/projects/1925399328/ember-bison-unexpectedly-soft-deeply-durable-apparel',image:'/ember-bison.jpg'},
+
+{title:'Revenant - Transform',category:'Fashion',year:2026,funding:'$184,192',goal:'$100,000',backers:'687',url:'https://www.kickstarter.com/projects/bisonwares/revenant-transform',image:'/revenant-transform.jpg'},
+
+{title:'TRANSFORM- Sherpa Jean Jacket',category:'Fashion',year:2026,funding:'$225,017',goal:'$16,000',backers:'1,496',url:'https://www.kickstarter.com/projects/transformjeanjacket/transform-sherpa-jean-jacket',image:'/transform-sherpa.jpg'},
+
+{title:'The GAMEBAG - A Nostalgic, Fun ITA Satchel Bag',category:'Fashion',year:2025,funding:'£310,744',goal:'£10,000',backers:'3,666',url:'https://www.kickstarter.com/projects/dokidokidemon/the-gamebag-a-nostalgic-fun-satchel-bag',image:'/gamebag.jpg'},
+
+{title:'The Monolith Collection: Modular RPG Dice Jewelry',category:'Fashion',year:2025,funding:'$354,591',goal:'$10,000',backers:'2,047',url:'https://www.kickstarter.com/projects/yaniir/the-monolith-collection',image:'/monolith.jpg'},
+
+{title:'SOTTOS: All-Terrain Luggage',category:'Fashion',year:2024,funding:'$240,680',goal:'$75,000',backers:'643',url:'https://www.kickstarter.com/projects/sottos/sottos-all-terrain-luggage',image:'/sottos.jpg'},
+
+{title:'Mesolite: Modular Bag System',category:'Fashion',year:2025,funding:'$137,028',goal:'$125,000',backers:'115',url:'https://www.kickstarter.com/projects/mesolite/mesolite-modular-bag-system',image:'/mesolite.jpg'},
+  
   // Film & Video
   {title:'RICKY Film Pay-It-Forward $250,000 Impact Campaign',category:'Film & Video',year:2026,funding:'$60,712',goal:'$50,000',backers:'120',url:'https://www.kickstarter.com/projects/rickythemovie/ricky-film-2026'},
   {title:'Small Town Monsters 2026: UFOs, Dogman, and Bigfoot',category:'Film & Video',year:2026,funding:'$106,787',goal:'$70,000',backers:'485',url:'https://www.kickstarter.com/projects/minervamonster/small-town-monsters-2026-ufos-dogman-and-bigfoot'},
@@ -112,13 +126,6 @@ export const portfolio: PortfolioItem[] = [
   {title:'ZIEA One: World\'s 1st AI Calendar for Planning and Focus',category:'Technology',year:2026,funding:'S$59,369',goal:'S$12,728',backers:'187',url:'https://www.kickstarter.com/projects/ziea/ziea-one-the-first-ai-powered-planning-and-focus-tool'},
   {title:'energieleser - endlich alle Zähler im Blick',category:'Technology',year:2026,funding:'€32,464',goal:'€10,000',backers:'391',url:'https://www.kickstarter.com/projects/energieleser/energieleser-endlich-alle-zahler-im-blick'},
 
-  // Fashion (6)
-  {title:'Revenant - Transform',category:'Fashion',year:2026,funding:'$184,192',goal:'$100,000',backers:'687',url:'https://www.kickstarter.com/projects/bisonwares/revenant-transform'},
-  {title:'TRANSFORM- Sherpa Jean Jacket',category:'Fashion',year:2026,funding:'$225,017',goal:'$16,000',backers:'1,496',url:'https://www.kickstarter.com/projects/transformjeanjacket/transform-sherpa-jean-jacket'},
-  {title:'The GAMEBAG - A Nostalgic, Fun ITA Satchel Bag',category:'Fashion',year:2025,funding:'£310,744',goal:'£10,000',backers:'3,666',url:'https://www.kickstarter.com/projects/dokidokidemon/the-gamebag-a-nostalgic-fun-satchel-bag'},
-  {title:'The Monolith Collection: Modular RPG Dice Jewelry',category:'Fashion',year:2025,funding:'$354,591',goal:'$10,000',backers:'2,047',url:'https://www.kickstarter.com/projects/yaniir/the-monolith-collection'},
-  {title:'SOTTOS: All-Terrain Luggage',category:'Fashion',year:2024,funding:'$240,680',goal:'$75,000',backers:'643',url:'https://www.kickstarter.com/projects/sottos/sottos-all-terrain-luggage'},
-  {title:'Mesolite: Modular Bag System',category:'Fashion',year:2025,funding:'$137,028',goal:'$125,000',backers:'115',url:'https://www.kickstarter.com/projects/mesolite/mesolite-modular-bag-system'},
 
   // Film & Video (4)
   {title:'BOWHUNTER',category:'Film & Video',year:2026,funding:'NZ$5,171',goal:'NZ$5,000',backers:'28',url:'https://www.kickstarter.com/projects/raroa/bowhunter/'},
