@@ -147,9 +147,11 @@ export const portfolio: PortfolioItem[] = [
 
 {title:'The World of Frostpunk: Artbook & Anthology',category:'Publishing',year:2025,funding:'€638,203',goal:'€50,000',backers:'3,807',url:'https://www.kickstarter.com/projects/11bitstudios/frostpunk-anthology-and-frostpunk-2-artbook',image:'https://static.wixstatic.com/media/320167_fe470cf37b894c579e8c1d22d02e480e~mv2.jpg/v1/fill/w_900%2Ch_1125%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/320167_fe470cf37b894c579e8c1d22d02e480e~mv2.jpg'},
 
+{title:'The Torch that Ignites the Stars Illustrated Deluxe Edition',category:'Publishing',year:2026,funding:'$123,033',goal:'$10,000',backers:'795',url:'https://www.kickstarter.com/projects/wxp/aa3',image:'/torch-ignites-stars.jpg'},
+ 
+  // Technology
 {title:'PetyPot - AI-Powered Litter-Free Self-Cleaning Cat Toilet',category:'Technology',year:2025,funding:'$650,548',goal:'$10,000',backers:'1,511',url:'https://www.kickstarter.com/projects/petypot/petypot',image:'/petypot.jpg'},
 
-  // Technology
 {title:'Keychron K3 HE & Keychron K3 Ultra: Slim Wireless Custom Keyboards',category:'Technology',year:2026,funding:'$284,900',goal:'$10,000',backers:'2,044',url:'https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards',image:'https://assets.st-note.com/production/uploads/images/261213791/rectangle_large_type_2_23a11982ad474884a6fc41fa20b61f92.png?width=1280'},
 
 {title:'Ray: Watch Anything. Understand Everything.',category:'Technology',year:2026,funding:'$227,420',goal:'$26,000',backers:'1,117',url:'https://www.kickstarter.com/projects/techspecs/ray-watch-anything-understand-everything',image:'/ray.jpg'},
@@ -164,14 +166,9 @@ export const portfolio: PortfolioItem[] = [
 
 {title:'energieleser - endlich alle Zähler im Blick',category:'Technology',year:2026,funding:'€32,464',goal:'€10,000',backers:'391',url:'https://www.kickstarter.com/projects/energieleser/energieleser-endlich-alle-zahler-im-blick',image:'/energieleser.jpg'},
 
-
-  // Publishing (1)
-{title:'The Torch that Ignites the Stars Illustrated Deluxe Edition',category:'Publishing',year:2026,funding:'$123,033',goal:'$10,000',backers:'795',url:'https://www.kickstarter.com/projects/wxp/aa3',image:'/torch-ignites-stars.jpg'},
-
-  // Technology (2)
 {title:'VoxMeta H1 Pro: Metrology-Grade 3D Scanner',category:'Technology',year:2026,funding:'HK$1,416,498',goal:'HK$117,640',backers:'91',url:'https://www.kickstarter.com/projects/voxmeta/h1-pro-3d-scanner',image:'/voxmeta-h1-pro.jpg'},
 
 {title:'Jetro: Keep Freshness Longer',category:'Technology',year:2026,funding:'HK$698,121',goal:'HK$39,000',backers:'1,317',url:'https://www.kickstarter.com/projects/ionizo/jetro-keep-freshness-longer/',image:'/jetro.jpg'},
-];
+  
 
 export const categories = ['Art','Comics','Design','Fashion','Film & Video','Games','Publishing','Technology'] as const;
