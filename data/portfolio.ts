@@ -55,10 +55,22 @@ export const portfolio: PortfolioItem[] = [
 {title:'BURLAP VOL. 1 GRAPHIC NOVEL',category:'Comics',year:2026,funding:'$5,391',goal:'$5,000',backers:'104',url:'https://www.kickstarter.com/projects/burlapcomics/burlap-vol-1-graphic-novel',image:'/burlap-vol-1.jpg'},
   
   // Design
-{title:'Mighty Morphin Power Rangers Combinable Dragonzord',category:'Design',year:2026,funding:'$782,530',goal:'$400,000',backers:'7,883',url:'https://www.kickstarter.com/projects/playmatestoys/mighty-morphin-power-rangers-combinable-dragonzord',image:'https://playmatestoys.com/wp-content/uploads/2026/08/MMPR_Dragonzord_SE_1c.png'},
-  {title:'D1 Milano x Peter Tarka: The Impossible Watch',category:'Design',year:2026,funding:'$415,041',goal:'$15,000',backers:'943',url:'https://www.kickstarter.com/projects/840192188/d1-milano-x-peter-tarka-the-impossible-watch',image:'https://wornandwound.com/library/uploads/2026/06/D1-Milano-x-Peter-Tarka-58.jpg'},  {title:'Renote Snap: World’s 1st Metal Notebook Wallet',category:'Design',year:2026,funding:'£68,119',goal:'£1,127',backers:'847',url:'https://www.kickstarter.com/projects/renote-snap/renote-snap-worlds-first-7-in-1-notebook-wallet'},
-  {title:'KEI PACK | The Future of EU Hand Luggage',category:'Design',year:2026,funding:'€10,404',goal:'€2,500',backers:'90',url:'https://www.kickstarter.com/projects/931698574/kei-carry-on-the-future-of-eu-hand-luggage'},
+{title:'Renote Snap: World’s 1st Metal Notebook Wallet',category:'Design',year:2026,funding:'£68,119',goal:'£1,127',backers:'847',url:'https://www.kickstarter.com/projects/renote-snap/renote-snap-worlds-first-7-in-1-notebook-wallet',image:'/renote-snap.jpg'},
 
+{title:'KEI PACK | The Future of EU Hand Luggage',category:'Design',year:2026,funding:'€10,404',goal:'€2,500',backers:'90',url:'https://www.kickstarter.com/projects/931698574/kei-carry-on-the-future-of-eu-hand-luggage',image:'/kei-pack.jpg'},
+
+{title:'Cinomadist Motion: A Backpack for Work, Transit, and Travel',category:'Design',year:2026,funding:'HK$827,686',goal:'HK$10,000',backers:'663',url:'https://www.kickstarter.com/projects/cinomadistbackpack/cinomadist-motion-a-backpack-for-work-transit-and-travel/',image:'/cinomadist-motion.jpg'},
+
+{title:'PartyDrop:3-in-1 Backpack That Transforms & Travels With You',category:'Design',year:2026,funding:'HK$132,418',goal:'HK$5,000',backers:'213',url:'https://www.kickstarter.com/projects/294064084/partydro-3-in-1-backpack-that-transforms-and-travels-with-you',image:'/partydrop.jpg'},
+
+{title:'TEMO – The Gravity-Activated Focus Timer for Deep Work',category:'Design',year:2026,funding:'HK$58,662',goal:'HK$4,000',backers:'135',url:'https://www.kickstarter.com/projects/1022636539/temo-the-gravity-activated-focus-timer-for-deep-work',image:'/temo.jpg'},
+
+{title:'The Magnetic 12-in-1 Phone Stand & Titanium EDC Tool',category:'Design',year:2026,funding:'$13,451',goal:'$2,000',backers:'159',url:'https://www.kickstarter.com/projects/vulyx/the-magnetic-12-in-1-phone-stand-and-titanium-edc-tool/',image:'/magnetic-12-in-1.jpg'},
+
+{title:'TDM. Neo | Headphones That Transform into a Speaker',category:'Design',year:2026,funding:'$154,113',goal:'$10,000',backers:'766',url:'https://www.kickstarter.com/projects/1973963736/tdm-neo-headphones-that-transform-into-a-speaker',image:'/tdm-neo.jpg'},
+
+{title:'Artella | The Modular Carry System',category:'Design',year:2026,funding:'€12,893',goal:'€5,120',backers:'36',url:'https://www.kickstarter.com/projects/artsyna/artella-a-modular-carry-system-for-work-gym-and-travel',image:'/artella.jpg'},
+  
   // Fashion
 {title:'noRecognition : AI Adversarial Clothing',category:'Fashion',year:2026,funding:'$204,288',goal:'$5,000',backers:'1,213',url:'https://www.kickstarter.com/projects/norecognition/norecognition-ai-adversarial-clothing',image:'https://s1.cdn.autoevolution.com/images/news/gallery/man-finds-creative-solution-to-surveillance-camera-tracking-rendering-flock-cameras-useless_1.jpg'},  {title:'The Unbound Performance Quarter Zip & Overshirt',category:'Fashion',year:2026,funding:'$85,484',goal:'$10,000',backers:'420',url:'https://www.kickstarter.com/projects/woodiesdenim/the-unbound-performance-quarter-zip-and-overshirt'},
   {title:'LAY YOUR BONES - An Ode to Natural Fibre',category:'Fashion',year:2026,funding:'AU$31,000',goal:'AU$30,000',backers:'46',url:'https://www.kickstarter.com/projects/layyourbones/lay-your-bones-an-ode-to-natural-fibre'},
@@ -99,14 +111,6 @@ export const portfolio: PortfolioItem[] = [
   {title:'FocusRay - VR FacialTracking Device',category:'Technology',year:2026,funding:'¥18,488,436',goal:'¥4,000,000',backers:'1,306',url:'https://www.kickstarter.com/projects/aoharunext/focusray-vr-facialtracking-device/'},
   {title:'ZIEA One: World\'s 1st AI Calendar for Planning and Focus',category:'Technology',year:2026,funding:'S$59,369',goal:'S$12,728',backers:'187',url:'https://www.kickstarter.com/projects/ziea/ziea-one-the-first-ai-powered-planning-and-focus-tool'},
   {title:'energieleser - endlich alle Zähler im Blick',category:'Technology',year:2026,funding:'€32,464',goal:'€10,000',backers:'391',url:'https://www.kickstarter.com/projects/energieleser/energieleser-endlich-alle-zahler-im-blick'},
-
-  // Design (6)
-  {title:'Cinomadist Motion: A Backpack for Work, Transit, and Travel',category:'Design',year:2026,funding:'HK$827,686',goal:'HK$10,000',backers:'663',url:'https://www.kickstarter.com/projects/cinomadistbackpack/cinomadist-motion-a-backpack-for-work-transit-and-travel/'},
-  {title:'PartyDrop:3-in-1 Backpack That Transforms & Travels With You',category:'Design',year:2026,funding:'HK$132,418',goal:'HK$5,000',backers:'213',url:'https://www.kickstarter.com/projects/294064084/partydro-3-in-1-backpack-that-transforms-and-travels-with-you'},
-  {title:'TEMO – The Gravity-Activated Focus Timer for Deep Work',category:'Design',year:2026,funding:'HK$58,662',goal:'HK$4,000',backers:'135',url:'https://www.kickstarter.com/projects/1022636539/temo-the-gravity-activated-focus-timer-for-deep-work'},
-  {title:'The Magnetic 12-in-1 Phone Stand & Titanium EDC Tool',category:'Design',year:2026,funding:'$13,451',goal:'$2,000',backers:'159',url:'https://www.kickstarter.com/projects/vulyx/the-magnetic-12-in-1-phone-stand-and-titanium-edc-tool/'},
-  {title:'TDM. Neo | Headphones That Transform into a Speaker',category:'Design',year:2026,funding:'$154,113',goal:'$10,000',backers:'766',url:'https://www.kickstarter.com/projects/1973963736/tdm-neo-headphones-that-transform-into-a-speaker'},
-  {title:'Artella | The Modular Carry System',category:'Design',year:2026,funding:'€12,893',goal:'€5,120',backers:'36',url:'https://www.kickstarter.com/projects/artsyna/artella-a-modular-carry-system-for-work-gym-and-travel'},
 
   // Fashion (6)
   {title:'Revenant - Transform',category:'Fashion',year:2026,funding:'$184,192',goal:'$100,000',backers:'687',url:'https://www.kickstarter.com/projects/bisonwares/revenant-transform'},
