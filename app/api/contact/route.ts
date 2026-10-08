@@ -111,10 +111,10 @@ const creatorEmail = `
     >
       <tr>
         <td style="
-          padding: 16px 14px 14px 14px;
+          padding: 18px 20px 16px 20px;
         ">
 
-          <!-- LOGO + BRAND + SOCIAL -->
+          <!-- LOGO + BRAND AREA -->
           <table
             cellpadding="0"
             cellspacing="0"
@@ -126,35 +126,35 @@ const creatorEmail = `
 
               <!-- LOGO -->
               <td style="
-                width: 70px;
-                min-width: 70px;
+                width: 82px;
+                min-width: 82px;
                 vertical-align: top;
-                padding-right: 12px;
+                padding-right: 18px;
               ">
                 <img
                   src="https://raw.githubusercontent.com/richnessofeyeno-hash/speedfunderwebsite/main/public/logo-circle.png"
                   alt="SpeedFunders"
-                  width="66"
+                  width="82"
                   style="
                     display: block;
-                    width: 66px;
+                    width: 82px;
                     height: auto;
                     border: 0;
                   "
                 />
               </td>
 
-              <!-- BRAND / TAGLINE / SOCIAL -->
+              <!-- BRAND + TAGLINE + SOCIAL -->
               <td style="
                 vertical-align: top;
-                width: auto;
+                width: 100%;
               ">
 
-                <!-- BRAND -->
+                <!-- BRAND NAME -->
                 <div style="
-                  font-size: 22px;
+                  font-size: 27px;
                   font-weight: 700;
-                  letter-spacing: 2px;
+                  letter-spacing: 3px;
                   color: #f5f2e8;
                   line-height: 1.05;
                   white-space: nowrap;
@@ -164,12 +164,12 @@ const creatorEmail = `
 
                 <!-- TAGLINE -->
                 <div style="
-                  margin-top: 5px;
-                  font-size: 11px;
+                  margin-top: 6px;
+                  font-size: 13px;
                   font-weight: 700;
-                  letter-spacing: 1.1px;
+                  letter-spacing: 1.7px;
                   color: #b8c9bd;
-                  line-height: 1.15;
+                  line-height: 1.2;
                   white-space: nowrap;
                 ">
                   YOUR FASTEST FUNDING PARTNERS
@@ -180,75 +180,89 @@ const creatorEmail = `
                   cellpadding="0"
                   cellspacing="0"
                   border="0"
+                  width="100%"
                   style="
-                    margin-top: 10px;
+                    width: 100%;
+                    margin-top: 13px;
                   "
                 >
                   <tr>
 
                     <!-- FACEBOOK -->
-                    <td style="padding-right: 18px;">
+                    <td style="
+                      width: 34%;
+                      white-space: nowrap;
+                    ">
                       <a
                         href="https://www.facebook.com/speedfunders"
                         style="
                           text-decoration: none;
                           color: #f5f2e8;
-                          font-size: 12px;
+                          font-size: 15px;
                           white-space: nowrap;
                         "
                       >
                         <span style="
-                          font-size: 18px;
+                          font-size: 22px;
                           font-weight: bold;
                           vertical-align: middle;
                         ">f</span>
+
                         <span style="
-                          margin-left: 4px;
+                          margin-left: 7px;
                           vertical-align: middle;
                         ">Facebook</span>
                       </a>
                     </td>
 
                     <!-- INSTAGRAM -->
-                    <td style="padding-right: 18px;">
+                    <td style="
+                      width: 40%;
+                      white-space: nowrap;
+                    ">
                       <a
                         href="https://www.instagram.com/speedfunders"
                         style="
                           text-decoration: none;
                           color: #f5f2e8;
-                          font-size: 12px;
+                          font-size: 15px;
                           white-space: nowrap;
                         "
                       >
                         <span style="
-                          font-size: 17px;
+                          font-size: 21px;
                           font-weight: bold;
                           vertical-align: middle;
                         ">◎</span>
+
                         <span style="
-                          margin-left: 4px;
+                          margin-left: 7px;
                           vertical-align: middle;
                         ">Instagram</span>
                       </a>
                     </td>
 
                     <!-- X -->
-                    <td>
+                    <td style="
+                      width: 26%;
+                      white-space: nowrap;
+                    ">
                       <a
                         href="https://twitter.com/speedfunders"
                         style="
                           text-decoration: none;
                           color: #f5f2e8;
-                          font-size: 12px;
+                          font-size: 15px;
                           white-space: nowrap;
                         "
                       >
                         <span style="
-                          font-size: 17px;
+                          font-size: 21px;
                           vertical-align: middle;
                         ">𝕏</span>
+
                         <span style="
-                          margin-left: 4px;
+                          margin-left: 7px;
                           vertical-align: middle;
                         ">X</span>
                       </a>
@@ -264,16 +278,16 @@ const creatorEmail = `
 
           <!-- ADDRESS -->
           <div style="
-            margin-top: 12px;
+            margin-top: 14px;
             width: 100%;
-            font-size: 9px;
+            font-size: 12px;
             font-weight: 600;
-            letter-spacing: 0;
+            letter-spacing: 0.2px;
             color: #d8ddd9;
-            line-height: 1.2;
+            line-height: 1.25;
             white-space: nowrap;
           ">
-            447 Broadway, 2nd Floor&nbsp;•&nbsp;New York, NY 10013, United States
+            447 Broadway, 2nd Floor&nbsp;&nbsp;•&nbsp;&nbsp;New York, NY 10013, United States
           </div>
 
         </td>
