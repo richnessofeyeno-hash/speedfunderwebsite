@@ -91,13 +91,26 @@ export const portfolio: PortfolioItem[] = [
 {title:'Mesolite: Modular Bag System',category:'Fashion',year:2025,funding:'$137,028',goal:'$125,000',backers:'115',url:'https://www.kickstarter.com/projects/mesolite/mesolite-modular-bag-system',image:'/mesolite.jpg'},
   
   // Film & Video
-  {title:'RICKY Film Pay-It-Forward $250,000 Impact Campaign',category:'Film & Video',year:2026,funding:'$60,712',goal:'$50,000',backers:'120',url:'https://www.kickstarter.com/projects/rickythemovie/ricky-film-2026'},
-  {title:'Small Town Monsters 2026: UFOs, Dogman, and Bigfoot',category:'Film & Video',year:2026,funding:'$106,787',goal:'$70,000',backers:'485',url:'https://www.kickstarter.com/projects/minervamonster/small-town-monsters-2026-ufos-dogman-and-bigfoot'},
-  {title:'The Last Picture Shop - Feature Documentary',category:'Film & Video',year:2026,funding:'£56,162',goal:'£30,000',backers:'779',url:'https://www.kickstarter.com/projects/tlps/the-last-picture-shop-feature-documentary'},
-  {title:'HALFRICAN',category:'Film & Video',year:2026,funding:'$39,153',goal:'$20,000',backers:'257',url:'https://www.kickstarter.com/projects/halfricanshow/halfrican'},
-  {title:'Talitha | A Miraculous Resurrection Feature Film',category:'Film & Video',year:2026,funding:'$30,000',goal:'$27,000',backers:'132',url:'https://www.kickstarter.com/projects/refocuscreative/talitha-a-miraculous-resurrection-story'},
-  {title:'The Commodore 64: The Birth of a Cultural Icon',category:'Film & Video',year:2026,funding:'£134,759',goal:'£55,000',backers:'2,616',url:'https://www.kickstarter.com/projects/graciousfilms/the-commodore-64-the-birth-of-a-cultural-icon'},
+{title:'RICKY Film Pay-It-Forward $250,000 Impact Campaign',category:'Film & Video',year:2026,...,image:'/ricky.jpg'},
 
+{title:'Small Town Monsters 2026: UFOs, Dogman, and Bigfoot',category:'Film & Video',year:2026,...,image:'/small-town-monsters.jpg'},
+
+{title:'The Last Picture Shop - Feature Documentary',category:'Film & Video',year:2026,...,image:'/last-picture-shop.jpg'},
+
+{title:'HALFRICAN',category:'Film & Video',year:2026,...,image:'/halfrican.jpg'},
+
+{title:'Talitha | A Miraculous Resurrection Feature Film',category:'Film & Video',year:2026,...,image:'/talitha.jpg'},
+
+{title:'The Commodore 64: The Birth of a Cultural Icon',category:'Film & Video',year:2026,...,image:'/commodore-64.jpg'},
+
+{title:'BOWHUNTER',category:'Film & Video',year:2026,...,image:'/bowhunter.jpg'},
+
+{title:'Wait in the Wings: Buried Treasure',category:'Film & Video',year:2026,...,image:'/wait-in-the-wings.jpg'},
+
+{title:'The Madoff Suit Project',category:'Film & Video',year:2026,...,image:'/madoff-suit-project.jpg'},
+
+{title:'TURMOIL IN THE TOYBOX - Feature Film Finishing Funds',category:'Film & Video',year:2026,...,image:'/turmoil-in-the-toybox.jpg'},
+  
   // Games
   {title:'Tex Murphy: Killing Moon Rising',category:'Games',year:2026,funding:'$482,875',goal:'$50,000',backers:'4,502',url:'https://www.kickstarter.com/projects/texmurphy/tex-murphy-killing-moon-rising',image:'/tex-murphy.jpg'},  {title:'Rolling Deep & Eureka | Dice Adventure Roguelike & Campaign',category:'Games',year:2026,funding:'$720,547',goal:'$15,000',backers:'6,209',url:'https://www.kickstarter.com/projects/bitewinggamesnick/rolling-deep-and-eureka-dice-adventure-roguelike-and-campaign'},
   {title:'PDX ✈️ The Airport Game',category:'Games',year:2026,funding:'$447,095',goal:'$22,000',backers:'4,670',url:'https://www.kickstarter.com/projects/waterworks/pdx'},
@@ -118,6 +131,7 @@ export const portfolio: PortfolioItem[] = [
   {title:'Shadows of the Tenebris Court: Collector\'s Edition Romantasy',category:'Publishing',year:2026,funding:'£83,428',goal:'£5,000',backers:'604',url:'https://www.kickstarter.com/projects/claresager/shadows-of-the-tenebris-court-collectors-edition-romantasy'},
 {title:'The World of Frostpunk: Artbook & Anthology',category:'Publishing',year:2025,funding:'€638,203',goal:'€50,000',backers:'3,807',url:'https://www.kickstarter.com/projects/11bitstudios/frostpunk-anthology-and-frostpunk-2-artbook',image:'https://static.wixstatic.com/media/320167_fe470cf37b894c579e8c1d22d02e480e~mv2.jpg/v1/fill/w_900%2Ch_1125%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/320167_fe470cf37b894c579e8c1d22d02e480e~mv2.jpg'},
   {title:'PetyPot - AI-Powered Litter-Free Self-Cleaning Cat Toilet',category:'Technology',year:2025,funding:'$650,548',goal:'$10,000',backers:'1,511',url:'https://www.kickstarter.com/projects/petypot/petypot'},
+ 
   // Technology
 {title:'Keychron K3 HE & Keychron K3 Ultra: Slim Wireless Custom Keyboards',category:'Technology',year:2026,funding:'$284,900',goal:'$10,000',backers:'2,044',url:'https://www.kickstarter.com/projects/keytron/keychron-k3-he-and-k3-ultra-slim-wireless-custom-keyboards',image:'https://assets.st-note.com/production/uploads/images/261213791/rectangle_large_type_2_23a11982ad474884a6fc41fa20b61f92.png?width=1280'},  {title:'Ray: Watch Anything. Understand Everything.',category:'Technology',year:2026,funding:'$227,420',goal:'$26,000',backers:'1,117',url:'https://www.kickstarter.com/projects/techspecs/ray-watch-anything-understand-everything'},
   {title:'Owl3D Shift: The Glasses-Free 3D Portal for Your PC',category:'Technology',year:2026,funding:'$347,611',goal:'$50,000',backers:'795',url:'https://www.kickstarter.com/projects/owl3d/owl3d-shift-the-glasses-free-3d-portal-for-your-pc'},
@@ -125,20 +139,5 @@ export const portfolio: PortfolioItem[] = [
   {title:'FocusRay - VR FacialTracking Device',category:'Technology',year:2026,funding:'¥18,488,436',goal:'¥4,000,000',backers:'1,306',url:'https://www.kickstarter.com/projects/aoharunext/focusray-vr-facialtracking-device/'},
   {title:'ZIEA One: World\'s 1st AI Calendar for Planning and Focus',category:'Technology',year:2026,funding:'S$59,369',goal:'S$12,728',backers:'187',url:'https://www.kickstarter.com/projects/ziea/ziea-one-the-first-ai-powered-planning-and-focus-tool'},
   {title:'energieleser - endlich alle Zähler im Blick',category:'Technology',year:2026,funding:'€32,464',goal:'€10,000',backers:'391',url:'https://www.kickstarter.com/projects/energieleser/energieleser-endlich-alle-zahler-im-blick'},
-
-
-  // Film & Video (4)
-  {title:'BOWHUNTER',category:'Film & Video',year:2026,funding:'NZ$5,171',goal:'NZ$5,000',backers:'28',url:'https://www.kickstarter.com/projects/raroa/bowhunter/'},
-  {title:'Wait in the Wings: Buried Treasure',category:'Film & Video',year:2026,funding:'$40,339',goal:'$15,000',backers:'282',url:'https://www.kickstarter.com/projects/waitinthewings/wait-in-the-wings-buried-treasure'},
-  {title:'The Madoff Suit Project',category:'Film & Video',year:2026,funding:'$2,673',goal:'$1,000',backers:'34',url:'https://www.kickstarter.com/projects/vdpod/the-madoff-suit-project'},
-  {title:'TURMOIL IN THE TOYBOX - Feature Film Finishing Funds',category:'Film & Video',year:2026,funding:'$108,476',goal:'$75,000',backers:'964',url:'https://www.kickstarter.com/projects/1418036943/turmoil-in-the-toybox-feature-film-finishing-funds'},
-
-  // Publishing (1)
-  {title:'The Torch that Ignites the Stars Illustrated Deluxe Edition',category:'Publishing',year:2026,funding:'$123,033',goal:'$10,000',backers:'795',url:'https://www.kickstarter.com/projects/wxp/aa3'},
-
-  // Technology (2)
-  {title:'VoxMeta H1 Pro: Metrology-Grade 3D Scanner',category:'Technology',year:2026,funding:'HK$1,416,498',goal:'HK$117,640',backers:'91',url:'https://www.kickstarter.com/projects/voxmeta/h1-pro-3d-scanner'},
-  {title:'Jetro: Keep Freshness Longer',category:'Technology',year:2026,funding:'HK$698,121',goal:'HK$39,000',backers:'1,317',url:'https://www.kickstarter.com/projects/ionizo/jetro-keep-freshness-longer/'},
-  ];
 
 export const categories = ['Art','Comics','Design','Fashion','Film & Video','Games','Publishing','Technology'] as const;
