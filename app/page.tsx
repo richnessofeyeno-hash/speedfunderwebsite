@@ -28,10 +28,53 @@ const featuredTitles = [
 ];
 
 export default function Home() {
-  const featured = useMemo(
-    () => featuredTitles.map(t => portfolio.find(p => p.title === t)).filter(Boolean),
-    []
-  );
+const featuredExtras = {
+  'Mighty Morphin Power Rangers Combinable Dragonzord': {
+    title: 'Mighty Morphin Power Rangers Combinable Dragonzord',
+    category: 'Design' as const,
+    year: 2026,
+    funding: '$782,530',
+    goal: '$400,000',
+    backers: '7,883',
+    url: 'https://www.kickstarter.com/projects/playmatestoys/mighty-morphin-power-rangers-combinable-dragonzord',
+    image: 'https://i.kickstarter.com/assets/054/790/343/61d45342b0778d71101371f73087a2a9_original.png?anim=false&fit=cover&gravity=auto&height=873&origin=ugc&q=92&sig=yUJ8lC4Y1FLhrxgn4lnCnZ4bOrz0W333L6OFBonmnOI%3D&v=1786998534&width=1552',
+  },
+
+  'D1 Milano x Peter Tarka: The Impossible Watch': {
+    title: 'D1 Milano x Peter Tarka: The Impossible Watch',
+    category: 'Design' as const,
+    year: 2026,
+    funding: '$415,041',
+    goal: '$15,000',
+    backers: '943',
+    url: 'https://www.kickstarter.com/projects/840192188/d1-milano-x-peter-tarka-the-impossible-watch',
+    image: 'https://wornandwound.com/library/uploads/2026/06/D1-Milano-x-Peter-Tarka-58.jpg',
+  },
+
+  'noRecognition : AI Adversarial Clothing': {
+    title: 'noRecognition : AI Adversarial Clothing',
+    category: 'Fashion' as const,
+    year: 2026,
+    funding: '$204,288',
+    goal: '$5,000',
+    backers: '1,213',
+    url: 'https://www.kickstarter.com/projects/norecognition/norecognition-ai-adversarial-clothing',
+    image: 'https://spectrum.ieee.org/media-library/three-individuals-modeling-a-neck-gaiter-t-shirt-and-hoodie-with-abstract-vibrant-patterns.jpg?id=67764255&width=980',
+  },
+};
+
+const featured = useMemo(
+  () =>
+    featuredTitles
+      .map(
+        t =>
+          portfolio.find(p => p.title === t) ??
+          featuredExtras[t as keyof typeof featuredExtras]
+      )
+      .filter(Boolean),
+  []
+);
+  
   const [index, setIndex] = useState(0);
   useEffect(() => {
     if (featured.length < 2) return;
