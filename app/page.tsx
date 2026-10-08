@@ -145,16 +145,29 @@ export default function Home() {
               <h2 className="display">CAMPAIGNS WORTH LOOKING AT.</h2>
               <p className="muted">Featured campaigns are shown only when their campaign data and Kickstarter destination have been verified.</p>
             </div>
-            {item ? (
-              <a className="featured-campaign" href={item.url} target="_blank" rel="noreferrer">
-                <div className="featured-campaign-copy">
-                  <div className="eyebrow">{item.category} · {item.year}</div>
-                  <h3>{item.title}</h3>
-                  <strong>{item.funding}</strong>
-                  <span className="text-link">VIEW KICKSTARTER CAMPAIGN ↗</span>
-                </div>
-              </a>
-            ) : null}
+{item ? (
+  <a
+    className="featured-campaign"
+    href={item.url}
+    target="_blank"
+    rel="noreferrer"
+  >
+    <div
+      className="featured-campaign-art"
+      style={{
+        backgroundImage: item.image ? `url("${item.image}")` : undefined,
+      }}
+      aria-hidden="true"
+    />
+
+    <div className="featured-campaign-copy">
+      <div className="eyebrow">{item.category} · {item.year}</div>
+      <h3>{item.title}</h3>
+      <strong>{item.funding}</strong>
+      <span className="text-link">VIEW KICKSTARTER CAMPAIGN ↗</span>
+    </div>
+  </a>
+) : null}
             <div className="carousel-controls">
               <button className="btn btn-ghost" onClick={() => setIndex(v => (v - 1 + featured.length) % featured.length)}>←</button>
               <span className="eyebrow">{featured.length ? `${String(index+1).padStart(2,'0')} / ${String(featured.length).padStart(2,'0')}` : 'PORTFOLIO'}</span>
