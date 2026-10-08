@@ -169,6 +169,6 @@ export const portfolio: PortfolioItem[] = [
 {title:'VoxMeta H1 Pro: Metrology-Grade 3D Scanner',category:'Technology',year:2026,funding:'HK$1,416,498',goal:'HK$117,640',backers:'91',url:'https://www.kickstarter.com/projects/voxmeta/h1-pro-3d-scanner',image:'/voxmeta-h1-pro.jpg'},
 
 {title:'Jetro: Keep Freshness Longer',category:'Technology',year:2026,funding:'HK$698,121',goal:'HK$39,000',backers:'1,317',url:'https://www.kickstarter.com/projects/ionizo/jetro-keep-freshness-longer/',image:'/jetro.jpg'},
-  
+];
 
 export const categories = ['Art','Comics','Design','Fashion','Film & Video','Games','Publishing','Technology'] as const;
