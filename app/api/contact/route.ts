@@ -305,7 +305,7 @@ const [teamResponse, creatorResponse] = await Promise.all([
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      from: 'SpeedFunders <team@speedfunders.com>',
+      from: 'SpeedFunders Notifications <notification@speedfunders.com>',
       to: ['team@speedfunders.com'],
       reply_to: email,
       subject: `New Project Request — ${name}`,
@@ -320,7 +320,7 @@ const [teamResponse, creatorResponse] = await Promise.all([
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      from: 'SpeedFunders <team@speedfunders.com>',
+      from: 'SpeedFunders <notification@speedfunders.com>',
       to: [email],
       reply_to: ['team@speedfunders.com'],
       subject: 'Thank You! Your SpeedFunders Project Request Has Been Received',
