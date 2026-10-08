@@ -77,36 +77,37 @@ export async function POST(request: Request) {
       <p>Best regards,<br />SpeedFunders Team</p>
     `;
 
-    const [teamResponse, creatorResponse] = await Promise.all([
-      fetch('https://api.resend.com/emails', {
-        method: 'POST',
-        headers: {
-          Authorization: `Bearer ${resendApiKey}`,
-          'Content-Type': 'application/json',
-        },
-body: JSON.stringify({
-  from: 'SpeedFunders <team@speedfunders.com>',
-  to: [email],
-  reply_to: ['team@speedfunders.com'],
-  subject: 'Thank You! Your SpeedFunders Project Request Has Been Received',
-  html: notificationEmail,
-        }),
-      }),
+const [teamResponse, creatorResponse] = await Promise.all([
+  fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${resendApiKey}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      from: 'SpeedFunders <team@speedfunders.com>',
+      to: ['team@speedfunders.com'],
+      reply_to: email,
+      subject: `New Project Request — ${name}`,
+      html: notificationEmail,
+    }),
+  }),
 
-      fetch('https://api.resend.com/emails', {
-        method: 'POST',
-        headers: {
-          Authorization: `Bearer ${resendApiKey}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          from: 'SpeedFunders <team@speedfunders.com>',
-          to: [email],
-          subject: 'Thank You! Your SpeedFunders Project Request Has Been Received',
-          html: creatorEmail,
-        }),
-      }),
-    ]);
+  fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${resendApiKey}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      from: 'SpeedFunders <team@speedfunders.com>',
+      to: [email],
+      reply_to: ['team@speedfunders.com'],
+      subject: 'Thank You! Your SpeedFunders Project Request Has Been Received',
+      html: creatorEmail,
+    }),
+  }),
+]);
 
     if (!teamResponse.ok || !creatorResponse.ok) {
       return NextResponse.json(
