@@ -89,7 +89,7 @@ body: JSON.stringify({
   to: [email],
   reply_to: ['team@speedfunders.com'],
   subject: 'Thank You! Your SpeedFunders Project Request Has Been Received',
-  html: creatorEmail,
+  html: notificationEmail,
         }),
       }),
 
