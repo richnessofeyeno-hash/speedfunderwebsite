@@ -175,106 +175,51 @@ const creatorEmail = `
                   YOUR FASTEST FUNDING PARTNERS
                 </div>
 
-                <!-- SOCIAL MEDIA -->
-                <table
-                  cellpadding="0"
-                  cellspacing="0"
-                  border="0"
-                  width="100%"
-                  style="
-                    width: 100%;
-                    margin-top: 13px;
-                  "
-                >
-                  <tr>
+<!-- WEBSITE + SOCIAL MEDIA LINKS -->
+<table
+  cellpadding="0"
+  cellspacing="0"
+  border="0"
+  style="margin-top: 11px; border-collapse: collapse; width: auto; max-width: 100%;"
+>
+  <tr>
+    <!-- WEBSITE -->
+    <td style="padding: 0 12px 0 0; white-space: nowrap;">
+      <a href="https://speedfunders.com/"
+         style="text-decoration:none; color:#f5f2e8; font-size:12px;">
+        <span style="font-size:15px; vertical-align:middle;">🌐</span>
+        <span style="vertical-align:middle;"> Website</span>
+      </a>
+    </td>
 
-                    <!-- FACEBOOK -->
-                    <td style="
-                      width: 34%;
-                      white-space: nowrap;
-                    ">
-                      <a
-                        href="https://www.facebook.com/speedfunders"
-                        style="
-                          text-decoration: none;
-                          color: #f5f2e8;
-                          font-size: 15px;
-                          white-space: nowrap;
-                        "
-                      >
-                        <span style="
-                          font-size: 22px;
-                          font-weight: bold;
-                          vertical-align: middle;
-                        ">f</span>
+    <!-- FACEBOOK -->
+    <td style="padding: 0 12px 0 0; white-space: nowrap;">
+      <a href="https://www.facebook.com/speedfunders"
+         style="text-decoration:none; color:#f5f2e8; font-size:12px;">
+        <span style="font-size:16px; font-weight:bold; vertical-align:middle;">f</span>
+        <span style="vertical-align:middle;"> Facebook</span>
+      </a>
+    </td>
 
-                        <span style="
-                          margin-left: 7px;
-                          vertical-align: middle;
-                        ">Facebook</span>
-                      </a>
-                    </td>
+    <!-- INSTAGRAM -->
+    <td style="padding: 0 12px 0 0; white-space: nowrap;">
+      <a href="https://www.instagram.com/speedfunders"
+         style="text-decoration:none; color:#f5f2e8; font-size:12px;">
+        <span style="font-size:16px; vertical-align:middle;">◎</span>
+        <span style="vertical-align:middle;"> Instagram</span>
+      </a>
+    </td>
 
-                    <!-- INSTAGRAM -->
-                    <td style="
-                      width: 40%;
-                      white-space: nowrap;
-                    ">
-                      <a
-                        href="https://www.instagram.com/speedfunders"
-                        style="
-                          text-decoration: none;
-                          color: #f5f2e8;
-                          font-size: 15px;
-                          white-space: nowrap;
-                        "
-                      >
-                        <span style="
-                          font-size: 21px;
-                          font-weight: bold;
-                          vertical-align: middle;
-                        ">◎</span>
-
-                        <span style="
-                          margin-left: 7px;
-                          vertical-align: middle;
-                        ">Instagram</span>
-                      </a>
-                    </td>
-
-                    <!-- X -->
-                    <td style="
-                      width: 26%;
-                      white-space: nowrap;
-                    ">
-                      <a
-                        href="https://twitter.com/speedfunders"
-                        style="
-                          text-decoration: none;
-                          color: #f5f2e8;
-                          font-size: 15px;
-                          white-space: nowrap;
-                        "
-                      >
-                        <span style="
-                          font-size: 21px;
-                          vertical-align: middle;
-                        ">𝕏</span>
-
-                        <span style="
-                          margin-left: 7px;
-                          vertical-align: middle;
-                        ">X</span>
-                      </a>
-                    </td>
-
-                  </tr>
-                </table>
-
-              </td>
-
-            </tr>
-          </table>
+    <!-- X -->
+    <td style="padding: 0; white-space: nowrap;">
+      <a href="https://twitter.com/speedfunders"
+         style="text-decoration:none; color:#f5f2e8; font-size:12px;">
+        <span style="font-size:16px; vertical-align:middle;">𝕏</span>
+        <span style="vertical-align:middle;"> X</span>
+      </a>
+    </td>
+  </tr>
+</table>
 
           <!-- ADDRESS -->
           <div style="
